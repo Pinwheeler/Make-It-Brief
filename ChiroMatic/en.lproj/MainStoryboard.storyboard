@@ -173,11 +173,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hH-tX-Q3Y">
-                                <rect key="frame" x="40" y="66" width="240" height="416"/>
+                                <rect key="frame" x="40" y="112" width="240" height="357"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <string key="text">--This box is scrollable--
+                                <mutableString key="text">--This box is scrollable--
 
-1) Enter header data. You will want to enter in the exam date and exam name. The default exam name is "exam" the default exam date is today.
+1) Enter header data. You will want to enter in the exam date and exam name. The default exam name is "Exam" the default exam date is today.
 
 2) Enter Action and Prognosis. Both action and Prognosis are optional and can be turned off by swithing their switches to off.
 
@@ -185,18 +185,24 @@ All fields in the Action and Prognosis section will remember the last 5 entries 
 
 3) Select Patient. This will reveal the exams that have already been assigned to that patient.
 
-4) Select Exam. In order to add an exam to the report  you have to first select it. Its information will appear editable in the Subjective/Objective Findings fields where you may edit it before creating the final report.</string>
+4) Select Exam. In order to add an exam to the report  you have to first select it. Its information will appear editable in the Subjective/Objective Findings fields where you may edit it before creating the final report.</mutableString>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" fixedFrame="YES" text="2. Generated Report" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cN-3O-yLQ">
-                                <rect key="frame" x="20" y="490" width="280" height="38"/>
+                                <rect key="frame" x="20" y="477" width="280" height="38"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" fixedFrame="YES" text="1. Report Builder Editor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zik-WX-9DL">
+                                <rect key="frame" x="20" y="66" width="280" height="38"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-2M-qoF">
-                                <rect key="frame" x="40" y="536" width="240" height="212"/>
+                                <rect key="frame" x="40" y="523" width="240" height="197"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <string key="text">The generated report is scrollable and will show you exactly what the report will look like. You may save the report as a PNG file, email a PNG version of the report to any email address, or print the report directly through any AirPrint printer.
 

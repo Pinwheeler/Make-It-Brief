@@ -286,6 +286,12 @@ static const float FINDINGS_LABEL_WIDTH = 470.0f;
     NSMutableArray* findings = [NSMutableArray arrayWithCapacity:0];
     for (Exam* exam in self.report.exams)
     {
+        // Error handling
+        if (!exam.name || [exam.name isEqualToString:@""])
+            exam.name = @"Miscellaneous Exam";
+        if (!exam.result || [exam.result isEqualToString:@""])
+            exam.result = @"No Result";
+        
         [findings addObject:exam];
     }
     

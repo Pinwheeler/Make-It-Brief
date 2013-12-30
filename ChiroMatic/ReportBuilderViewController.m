@@ -57,6 +57,9 @@
                 if (textField == self.examNameField) {
                     continue;
                 }
+                if (textField == self.reportNameField) {
+                    continue;
+                }
                 if (textField == self.resultField) {
                     continue;
                 }
@@ -81,6 +84,9 @@
             if ([self checkIfAllRequiredFieldsHaveBeenFilledInView:self.view]) {
                 if (!self.dateField.text || ([self.dateField.text isEqualToString:@""])) {
                     self.report.date = [NSDate date];
+                }
+                if (!self.reportNameField.text || ([self.reportNameField.text isEqualToString:@""])) {
+                    self.report.name = @"Exam";
                 }
                 [self.embeddedViewController saveData];
                 self.report.insuranceBilled = self.report.patient.insurance;
@@ -114,14 +120,6 @@
                         prognosisString = [prognosisString stringByAppendingString:@"."];
                     }
                     self.report.prognosis = prognosisString;
-                }
-                
-                if (!self.examNameField.text){
-                    self.report.name = @"exam";
-                }
-                
-                if (!self.dateField.text) {
-                    self.report.date = [NSDate date];
                 }
                 
                 vc.passedObject = self.report;
@@ -224,9 +222,19 @@
         if (textField == self.examNameField)
         {
             exam.name = textField.text;
+            
+            // Error Handling
+            if (!exam.name || [exam.name isEqualToString:@""]) {
+                exam.name = @"Miscellaneous Exam";
+            }
         }
         if (textField == self.resultField){
             exam.result = textField.text;
+            
+            // Error Handling
+            if (!textField.text || [textField.text isEqualToString:@""]) {
+                exam.result = @"No Result";
+            }
         }
     }
     if (textField == self.dateField) {
