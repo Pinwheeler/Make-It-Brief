@@ -21,6 +21,6 @@
 - (void) textFieldDidEndEditing:(UITextField *)textField;
 - (void) saveData;
 - (void) viewWillDisappear:(BOOL)animated;
-- (void) clearTextfieldsAssociatedWithEntityType:(NSString*)type;
+- (void) clearTextfieldsAssociatedWithEntityType:(Class)type;
 
 @end

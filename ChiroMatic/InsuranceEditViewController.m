@@ -31,6 +31,8 @@
 -(void) populateFieldsWithDataOfObject:(id)object
 {
     
+    [self clearTextfieldsAssociatedWithEntityType:[object class]];
+    
     if ([object isKindOfClass:[Insurance class]]) {
         self.embeddedViewController.currentSuperobject = object;
         Insurance* insurance = object;
@@ -53,6 +55,20 @@
         }
     }
     
+}
+
+- (void) clearTextfieldsAssociatedWithEntityType:(Class)type
+{
+    if (type == [Insurance class]) {
+        self.nameField.text = @"";
+        self.contactField.text = @"";
+        self.phoneField.text = @"";
+        self.addressField.text = @"";
+        self.cityField.text = @"";
+        self.stateField.text = @"";
+        self.zipField.text = @"";
+        self.suiteField.text = @"";
+    }
 }
 
 - (void) textFieldDidEndEditing:(UITextField *)textField

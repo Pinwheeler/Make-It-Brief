@@ -14,7 +14,7 @@
 #import "Insurance.h"
 #import "Patient.h"
 
-@interface EmbedDoctorViewController : DoctorViewController
+@interface EmbedDoctorViewController : DoctorViewController <UIPopoverControllerDelegate>
 
 @property (weak, nonatomic) NSManagedObject* currentSuperobject;
 @property (weak, nonatomic) EditViewController* delegate;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Pm0-yy-REb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="Pm0-yy-REb">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
@@ -9,15 +9,11 @@
         <scene sceneID="Mp2-CF-VNK">
             <objects>
                 <viewController id="Mj6-cF-OYG" customClass="ChiroMaticSplashViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ezv-ZC-aVG"/>
-                        <viewControllerLayoutGuide type="bottom" id="afO-kH-Pib"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8KN-26-Bda">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="MakeItBriefSplashLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-xf-Ico">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="MakeItBriefSplashLogo.png" id="W0G-xf-Ico">
                                 <rect key="frame" x="198" y="220" width="307" height="307"/>
                             </imageView>
                         </subviews>
@@ -66,15 +62,11 @@
         <scene sceneID="5au-6x-e8s">
             <objects>
                 <viewController id="1zT-VY-Y20" customClass="ChiroMaticViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5pT-wP-JUO"/>
-                        <viewControllerLayoutGuide type="bottom" id="udU-ak-fqf"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rzd-A2-igd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bS-FU-LUl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1bS-FU-LUl">
                                 <rect key="frame" x="20" y="264" width="280" height="86"/>
                                 <state key="normal" title="Patients" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -84,7 +76,7 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="1sY-0I-x5e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6F-7z-qX7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v6F-7z-qX7">
                                 <rect key="frame" x="20" y="79" width="280" height="86"/>
                                 <state key="normal" title="Clinics/Doctors" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -94,7 +86,7 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="Xn2-WR-eNX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFA-bp-FnR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GFA-bp-FnR">
                                 <rect key="frame" x="20" y="171" width="280" height="86"/>
                                 <state key="normal" title="Insurance/Providers" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -104,7 +96,7 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="Ikx-U6-fqB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-JY-xwf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XxS-JY-xwf">
                                 <rect key="frame" x="20" y="357" width="280" height="86"/>
                                 <state key="normal" title="Exams" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -114,7 +106,7 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="H75-mW-CE6"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-7l-IUP">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jEl-7l-IUP">
                                 <rect key="frame" x="20" y="451" width="280" height="86"/>
                                 <state key="normal" title="Settings/Images" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -124,7 +116,7 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="cV4-eg-yVb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVL-yN-5x9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NVL-yN-5x9">
                                 <rect key="frame" x="20" y="633" width="280" height="86"/>
                                 <state key="normal" title="Report Builder" backgroundImage="Blue Button.png">
                                     <color key="titleColor" red="1" green="0.87450987100601196" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
@@ -158,21 +150,17 @@
         <scene sceneID="Syr-d8-jMi">
             <objects>
                 <viewController id="5x9-ry-qOR" customClass="ReportBuilderMasterViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kMa-8x-UnE"/>
-                        <viewControllerLayoutGuide type="bottom" id="eE7-t9-Oyf"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QMT-Aj-JNZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" fixedFrame="YES" text="1. Report Builder Data Entry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa1-OW-7pb">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" text="1. Report Builder Data Entry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aa1-OW-7pb">
                                 <rect key="frame" x="20" y="20" width="280" height="38"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hH-tX-Q3Y">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="9hH-tX-Q3Y">
                                 <rect key="frame" x="40" y="112" width="240" height="357"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <mutableString key="text">--This box is scrollable--
@@ -189,19 +177,19 @@ All fields in the Action and Prognosis section will remember the last 5 entries 
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" fixedFrame="YES" text="2. Generated Report" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cN-3O-yLQ">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" text="2. Generated Report" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8cN-3O-yLQ">
                                 <rect key="frame" x="20" y="477" width="280" height="38"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" fixedFrame="YES" text="1. Report Builder Editor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zik-WX-9DL">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" text="1. Report Builder Editor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zik-WX-9DL">
                                 <rect key="frame" x="20" y="66" width="280" height="38"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-2M-qoF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="7Hh-2M-qoF">
                                 <rect key="frame" x="40" y="523" width="240" height="197"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <string key="text">The generated report is scrollable and will show you exactly what the report will look like. You may save the report as a PNG file, email a PNG version of the report to any email address, or print the report directly through any AirPrint printer.
@@ -282,15 +270,11 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="ueq-Cr-RHS">
             <objects>
                 <viewController id="U6N-Lu-asl" customClass="PatientsEditViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zeI-7v-Gsm"/>
-                        <viewControllerLayoutGuide type="bottom" id="Bb2-Ag-xKS"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0aA-Qh-wOc">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x6R-TI-djU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" id="x6R-TI-djU">
                                 <rect key="frame" x="20" y="20" width="331" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -298,7 +282,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="0jd-qS-rQM"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="birthDate" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v0v-hH-3se">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="birthDate" clearsOnBeginEditing="YES" minimumFontSize="17" id="v0v-hH-3se">
                                 <rect key="frame" x="523" y="20" width="160" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -306,7 +290,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="HEp-v3-sdt"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="injuryDate" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MN1-q1-BXx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="injuryDate" clearsOnBeginEditing="YES" minimumFontSize="17" id="MN1-q1-BXx">
                                 <rect key="frame" x="523" y="58" width="160" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -314,7 +298,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="7qK-F8-gCV"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="fileNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WhL-Xx-Zac">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="fileNumber" clearsOnBeginEditing="YES" minimumFontSize="17" id="WhL-Xx-Zac">
                                 <rect key="frame" x="20" y="58" width="331" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -322,14 +306,14 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="lg7-TZ-48D"/>
                                 </connections>
                             </textField>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3pO-hf-oqP">
+                            <containerView contentMode="scaleToFill" id="3pO-hf-oqP">
                                 <rect key="frame" x="20" y="163" width="663" height="292"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="BYL-U3-2by" kind="embed" identifier="Embed Insurance Table View Controller" id="bD4-ah-j8h"/>
                                 </connections>
                             </containerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="policyNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9L-md-dcJ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="policyNumber" clearsOnBeginEditing="YES" minimumFontSize="17" id="O9L-md-dcJ">
                                 <rect key="frame" x="20" y="125" width="663" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
@@ -337,19 +321,19 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="5aj-Az-hbN"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Insurance:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2c-Ts-xlI">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insurance:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L2c-Ts-xlI">
                                 <rect key="frame" x="20" y="96" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Doctor:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhU-Np-oCt">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Doctor:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HhU-Np-oCt">
                                 <rect key="frame" x="20" y="463" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ojd-Zh-MeZ">
+                            <containerView contentMode="scaleToFill" id="Ojd-Zh-MeZ">
                                 <rect key="frame" x="20" y="492" width="663" height="256"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
@@ -482,9 +466,28 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" showsHorizontalScrollIndicator="NO" editable="NO" id="fDv-hC-uQc">
+                            <rect key="frame" x="0.0" y="64" width="320" height="103"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <mutableString key="text">--This box is scrollable--
+
+Here you can add/edit clinic and doctor information. This information will be used on the MiB Report.
+
+1) Either select a clinic name to select a currently-existing clinic or click the plus button at the bottom of the list to create a new clinic
+
+2) A Doctors table will appear, but you don't need to worry about that just yet. Fill in any appropriate clinic information such as address, website, phone, etc. If your clinic doesn't have one or more of those, feel free to leave them blank.
+
+3) You will now be able to add a logo for your clinic. This logo will appear in the header of any reports generated  by MiB. Click the "change" button and make sure to allow MiB access to your iOS device photos!
+
+4) An Image selector should pop up allowing you to navigate and select any photo from your iOS device. The image selector can be resized to only capture a portion of the image. The image will not be resized.
+
+5) Finally, time to add doctors to your clinic. If you would like to add an already-created doctor to the clinic, simply tap the doctor's name. You can tell which clinic is currently selected because that clinic's name and address information will be on the top of the screen.</mutableString>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Clinic Cell" textLabel="Nha-ry-DqS" detailTextLabel="eUP-nc-0kC" style="IBUITableViewCellStyleSubtitle" id="ZOe-Q8-U3S">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="189" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZOe-Q8-U3S" id="qld-Az-AWt">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -537,15 +540,11 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="Z53-F5-5ZS">
             <objects>
                 <viewController id="WDQ-f9-vmJ" customClass="ClinicsDoctorsEditViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8I7-AJ-44B"/>
-                        <viewControllerLayoutGuide type="bottom" id="0vy-0n-yA0"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mBF-qe-kbF">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pAF-TA-cvF">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" id="pAF-TA-cvF">
                                 <rect key="frame" x="20" y="20" width="358" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -553,7 +552,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="FVm-sR-0fL"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fbe-ll-2WV">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" id="fbe-ll-2WV">
                                 <rect key="frame" x="20" y="58" width="663" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -561,7 +560,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="Cdi-ub-yFK"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="website" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KnD-P7-7ar">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="website" clearsOnBeginEditing="YES" minimumFontSize="17" id="KnD-P7-7ar">
                                 <rect key="frame" x="386" y="20" width="297" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
@@ -569,7 +568,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="TDt-kh-3x3"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HZd-HZ-dWA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" id="HZd-HZ-dWA">
                                 <rect key="frame" x="20" y="96" width="311" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
@@ -577,14 +576,14 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="WYg-OP-45C"/>
                                 </connections>
                             </textField>
-                            <containerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xJW-cQ-hOj">
+                            <containerView hidden="YES" contentMode="scaleToFill" id="xJW-cQ-hOj">
                                 <rect key="frame" x="0.0" y="134" width="331" height="634"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="LsZ-aZ-6yz" kind="embed" identifier="Embed Doctor Table View Controller" id="TUf-oW-WLd"/>
                                 </connections>
                             </containerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="doctorName" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GPE-t3-yt0">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="doctorName" clearsOnBeginEditing="YES" minimumFontSize="17" id="GPE-t3-yt0">
                                 <rect key="frame" x="339" y="233" width="305" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -592,25 +591,25 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="a56-cd-sx6"/>
                                 </connections>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-PD-SnQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Default.png" id="YRZ-PD-SnQ">
                                 <rect key="frame" x="339" y="137" width="344" height="88"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Clinic Header Photo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcF-Hm-1cR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Clinic Header Photo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YcF-Hm-1cR">
                                 <rect key="frame" x="339" y="105" width="154" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="HfP-vb-4GN">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="Default.png" id="HfP-vb-4GN">
                                 <rect key="frame" x="405" y="321" width="278" height="88"/>
                             </imageView>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Doctor Signature Image" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9X-fu-SKK">
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Doctor Signature Image" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G9X-fu-SKK">
                                 <rect key="frame" x="339" y="99" width="182" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-ns-dgQ">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Edb-ns-dgQ">
                                 <rect key="frame" x="629" y="92" width="54" height="37"/>
                                 <state key="normal" title="Change">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -619,7 +618,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <action selector="changeImage:" destination="WDQ-f9-vmJ" eventType="touchUpInside" id="5Iz-Up-Awo"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdX-2q-vTi">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KdX-2q-vTi">
                                 <rect key="frame" x="629" y="93" width="54" height="35"/>
                                 <state key="normal" title="Change">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -736,9 +735,26 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" showsHorizontalScrollIndicator="NO" editable="NO" id="tAr-LN-Miq">
+                            <rect key="frame" x="0.0" y="64" width="320" height="103"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <mutableString key="text">--This box is scrollable--
+
+Here you can add/edit Insurance information. This information will be used on the MiB Report.
+
+1) Either select an insurance name to select a currently-existing insurance or click the plus button at the bottom of the list to create a new insurance entry
+
+2) Add in the information for the insurance company. The contact is the name to whom the reports will be addressed.
+
+3) With the insurance selected you can select doctors that are licensed for this insurance company. Simply tap the doctor's name to add the insurance to the doctor's file. The doctor's name will get a checkmark showing this has been done.
+
+4) If you made a mistake, simply tap the doctor again to uncheck it and disallow that doctor from using that insurance.</mutableString>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Insurance Cell" textLabel="fxj-83-vT5" detailTextLabel="Z6U-IX-iyz" style="IBUITableViewCellStyleSubtitle" id="g5t-Ih-jED">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="189" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g5t-Ih-jED" id="l1j-pi-szG">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -790,22 +806,18 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="IY1-Nq-5Sl">
             <objects>
                 <viewController id="ybE-HV-OYj" customClass="InsuranceEditViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kGr-mr-cMC"/>
-                        <viewControllerLayoutGuide type="bottom" id="UUi-gW-cqA"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="92Y-4Y-Ebr">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gjR-sb-P6p">
+                            <containerView contentMode="scaleToFill" id="gjR-sb-P6p">
                                 <rect key="frame" x="0.0" y="352" width="703" height="416"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="lc5-3V-u1J" kind="embed" identifier="Embed Doctor Table View Controller" id="Zwg-SH-PMx"/>
                                 </connections>
                             </containerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SAp-j2-QHD">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" id="SAp-j2-QHD">
                                 <rect key="frame" x="20" y="20" width="358" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -813,7 +825,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="xKg-5j-9tc"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UNz-nO-RYM">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" id="UNz-nO-RYM">
                                 <rect key="frame" x="20" y="58" width="281" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -821,7 +833,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="5vK-YA-xeb"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contact" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fZT-Bq-cMR">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contact" clearsOnBeginEditing="YES" minimumFontSize="17" id="fZT-Bq-cMR">
                                 <rect key="frame" x="386" y="20" width="297" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -829,7 +841,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="0D1-nf-y0s"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V5d-1j-L2x">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" id="V5d-1j-L2x">
                                 <rect key="frame" x="309" y="96" width="206" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
@@ -837,7 +849,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="6rE-1b-akD"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="city" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="twv-Rh-ujU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="city" clearsOnBeginEditing="YES" minimumFontSize="17" id="twv-Rh-ujU">
                                 <rect key="frame" x="309" y="58" width="206" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -845,7 +857,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="vy4-ZB-ogJ"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="state" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vut-O5-Txu">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="state" clearsOnBeginEditing="YES" minimumFontSize="17" id="Vut-O5-Txu">
                                 <rect key="frame" x="523" y="58" width="160" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
@@ -853,7 +865,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="70f-Pb-x0y"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="zip" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BKy-Nt-IpO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="zip" clearsOnBeginEditing="YES" minimumFontSize="17" id="BKy-Nt-IpO">
                                 <rect key="frame" x="141" y="96" width="160" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
@@ -861,7 +873,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="468-MC-qUm"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="suiteNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jJq-9d-H0j">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="suiteNumber" clearsOnBeginEditing="YES" minimumFontSize="17" id="jJq-9d-H0j">
                                 <rect key="frame" x="20" y="96" width="113" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
@@ -955,9 +967,28 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="vRL-QX-kFv">
+                            <rect key="frame" x="0.0" y="64" width="320" height="103"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <mutableString key="text">--This box is scrollable--
+
+This is where you can quick-create findings from the MiB quick-finding database. These are all frequently-used findings. All findings will be added to the selected patient and available to use when creating a report. Don't worry about getting it exactly right, you can always edit the finding before creating the report.
+
+1) Select the name of the quick-finding you would like to use.
+
+2) A scroll wheel should appear in the center of the main edit screen.
+
+3) As you scroll through the possible pre-defined finding types, the preview sentence will update with what finding will be saved to the patient's file.
+
+4) Select the patient to to whose file you would like to add the finding. You should see a checkmark next to the patient's name to signify that the patient's file was updated successfully. 
+
+5) That's it! When you go to the Report Builder, your finding along with its result will be saved to the patient's file. If you would like to remove a finding from the patient's file, you can do so from this screen.</mutableString>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Hardcoded Exam Cell" textLabel="gv4-iu-wOF" style="IBUITableViewCellStyleDefault" id="Pys-Un-tbY">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="189" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pys-Un-tbY" id="5qs-za-ZnA">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -994,10 +1025,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="Kj3-Op-cKb">
             <objects>
                 <viewController id="zpB-aD-6ec" customClass="SettingsImagesViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="e3E-V8-Gwf"/>
-                        <viewControllerLayoutGuide type="bottom" id="BfW-pQ-j0A"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0Ly-Qf-D1w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1015,42 +1042,38 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="1Xw-Sw-CNT">
             <objects>
                 <viewController id="aw8-SC-B4U" customClass="ExamsEditViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hQe-JW-y4x"/>
-                        <viewControllerLayoutGuide type="bottom" id="Aw8-g7-2hp"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vsD-JO-XfE">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Click Patient to Add Exam to Patient's File" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtZ-q8-64K">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Click Patient to Add Exam to Patient's File" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dtZ-q8-64K">
                                 <rect key="frame" x="189" y="526" width="325" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oda-vR-Rov">
+                            <containerView contentMode="scaleToFill" id="Oda-vR-Rov">
                                 <rect key="frame" x="0.0" y="555" width="703" height="213"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="PzN-Ac-VE6" kind="embed" identifier="Embed Patients Table View Controller" id="bpw-PH-kdF"/>
                                 </connections>
                             </containerView>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEc-rC-42d">
+                            <pickerView contentMode="scaleToFill" id="zEc-rC-42d">
                                 <rect key="frame" x="0.0" y="0.0" width="703" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="aw8-SC-B4U" id="hyX-wj-cY2"/>
                                     <outlet property="delegate" destination="aw8-SC-B4U" id="GXx-1a-GnH"/>
                                 </connections>
                             </pickerView>
-                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PTY-fH-LP5">
+                            <pickerView hidden="YES" contentMode="scaleToFill" id="PTY-fH-LP5">
                                 <rect key="frame" x="0.0" y="234" width="703" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="aw8-SC-B4U" id="fjX-ip-b7J"/>
                                     <outlet property="delegate" destination="aw8-SC-B4U" id="QwI-vb-eWi"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Preview Sentence" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="663" translatesAutoresizingMaskIntoConstraints="NO" id="nuQ-BX-MJr">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Preview Sentence" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nuQ-BX-MJr">
                                 <rect key="frame" x="20" y="458" width="663" height="40"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
@@ -1075,29 +1098,25 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="mbO-p4-Go8">
             <objects>
                 <viewController id="u82-eY-FBt" customClass="ReportBuilderViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PKa-Uw-c4R"/>
-                        <viewControllerLayoutGuide type="bottom" id="8oh-es-0CN"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wT3-27-cNL">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4C-8s-gbO">
+                            <containerView contentMode="scaleToFill" id="d4C-8s-gbO">
                                 <rect key="frame" x="345" y="376" width="358" height="392"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="MnN-W9-tpd" kind="embed" id="vO3-Cz-hMe"/>
                                 </connections>
                             </containerView>
-                            <containerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XrD-TE-VgX">
+                            <containerView hidden="YES" contentMode="scaleToFill" id="XrD-TE-VgX">
                                 <rect key="frame" x="0.0" y="344" width="347" height="424"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="eJF-Yw-ftG" kind="embed" identifier="Embed Exams Table View Controller" id="f0R-gI-Eao"/>
                                 </connections>
                             </containerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="result" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rqU-da-Tyb">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="result" minimumFontSize="17" id="rqU-da-Tyb">
                                 <rect key="frame" x="356" y="338" width="297" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done"/>
@@ -1105,7 +1124,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="XeP-JU-Yh0"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="findingType" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JaH-Cq-gUP">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="findingType" minimumFontSize="17" id="JaH-Cq-gUP">
                                 <rect key="frame" x="355" y="300" width="297" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done"/>
@@ -1113,7 +1132,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="eoD-jF-H2J"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeJ-Fo-pq6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OeJ-Fo-pq6">
                                 <rect key="frame" x="539" y="20" width="144" height="68"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Generate Report" backgroundImage="Blue Button.png">
@@ -1124,7 +1143,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <action selector="generateReport:" destination="u82-eY-FBt" eventType="touchUpInside" id="umn-dY-E0C"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="examName" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GTc-1U-Wws">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="examName" minimumFontSize="17" id="GTc-1U-Wws">
                                 <rect key="frame" x="20" y="20" width="297" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -1132,7 +1151,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="rFF-dX-p9b"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="examDate" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fah-gF-dSj">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="examDate" minimumFontSize="17" id="fah-gF-dSj">
                                 <rect key="frame" x="20" y="58" width="297" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
@@ -1140,67 +1159,67 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="1B7-BU-HwO"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Insurance/Provider Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uf-AY-zlE">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insurance/Provider Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2uf-AY-zlE">
                                 <rect key="frame" x="325" y="20" width="179" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Subjective/Objective Findings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxu-X5-dvi">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Subjective/Objective Findings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lxu-X5-dvi">
                                 <rect key="frame" x="356" y="271" width="229" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="&lt;Insurance/Provider Name>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yp7-3p-fbf">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;Insurance/Provider Name>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yp7-3p-fbf">
                                 <rect key="frame" x="325" y="42" width="201" height="14"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.51372551918029785" blue="0.96078437566757202" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="&lt;Policy Number>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLD-ib-nKn">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;Policy Number>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cLD-ib-nKn">
                                 <rect key="frame" x="325" y="60" width="201" height="12"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="&lt;Contact Name>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GoB-fj-jLl">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;Contact Name>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GoB-fj-jLl">
                                 <rect key="frame" x="325" y="75" width="145" height="13"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Action" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xel-Jj-HHr">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Action" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xel-Jj-HHr">
                                 <rect key="frame" x="20" y="96" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Prognosis" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rp-qq-5Ci">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Prognosis" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8rp-qq-5Ci">
                                 <rect key="frame" x="20" y="202" width="77" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="The treatment will consist of" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0p-cx-1bz">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The treatment will consist of" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j0p-cx-1bz">
                                 <rect key="frame" x="129" y="102" width="178" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="lasting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFQ-uC-qGN">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="lasting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YFQ-uC-qGN">
                                 <rect key="frame" x="28" y="133" width="38" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="This treatment has been prescribed to" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdL-3a-Tn0">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This treatment has been prescribed to" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hdL-3a-Tn0">
                                 <rect key="frame" x="28" y="170" width="212" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TRJ-5O-zx1">
+                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="TRJ-5O-zx1">
                                 <rect key="frame" x="306" y="94" width="282" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1208,7 +1227,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="Obb-U9-j3V"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duk-LM-LXE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Duk-LM-LXE">
                                 <rect key="frame" x="596" y="98" width="86" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <state key="normal" title="Predefined" backgroundImage="Blue Button.png">
@@ -1219,19 +1238,19 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <action selector="treatmentModalPopover:" destination="u82-eY-FBt" eventType="touchUpInside" id="vDB-R6-6lk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="I expect" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H75-nN-aOp">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="I expect" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H75-nN-aOp">
                                 <rect key="frame" x="162" y="205" width="58" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="and suggest the patient follow up with you in" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqo-gM-8gY">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="and suggest the patient follow up with you in" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wqo-gM-8gY">
                                 <rect key="frame" x="28" y="240" width="250" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="glW-nj-Ckk">
+                            <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="glW-nj-Ckk">
                                 <rect key="frame" x="248" y="198" width="340" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1239,7 +1258,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="Dck-8L-PDh"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diB-YU-RYK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="diB-YU-RYK">
                                 <rect key="frame" x="596" y="201" width="86" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <state key="normal" title="Predefined" backgroundImage="Blue Button.png">
@@ -1250,7 +1269,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <action selector="expectationModalPopover:" destination="u82-eY-FBt" eventType="touchUpInside" id="6iF-jx-lbV"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kpy-rF-qP4">
+                            <textField opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="Kpy-rF-qP4">
                                 <rect key="frame" x="288" y="232" width="300" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1258,7 +1277,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="Ivg-95-uaw"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvX-wH-NYQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MvX-wH-NYQ">
                                 <rect key="frame" x="596" y="236" width="86" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <state key="normal" title="Predefined" backgroundImage="Blue Button.png">
@@ -1269,7 +1288,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <action selector="followupModalPopover:" destination="u82-eY-FBt" eventType="touchUpInside" id="fTn-w8-49x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qze-rq-CCb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qze-rq-CCb">
                                 <rect key="frame" x="596" y="130" width="86" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <state key="normal" title="Predefined" backgroundImage="Blue Button.png">
@@ -1280,7 +1299,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <action selector="durationModalPopover:" destination="u82-eY-FBt" eventType="touchUpInside" id="mBU-ku-vao"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PHy-NN-hA5">
+                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="PHy-NN-hA5">
                                 <rect key="frame" x="248" y="163" width="340" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1288,7 +1307,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="u82-eY-FBt" id="3De-r0-NAC"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzS-lZ-KIe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lzS-lZ-KIe">
                                 <rect key="frame" x="596" y="166" width="86" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <state key="normal" title="Predefined" backgroundImage="Blue Button.png">
@@ -1299,19 +1318,19 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <action selector="purposeModalPopover:" destination="u82-eY-FBt" eventType="touchUpInside" id="Odt-r8-FeM"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zrJ-wk-qP0">
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="zrJ-wk-qP0">
                                 <rect key="frame" x="72" y="91" width="51" height="31"/>
                                 <connections>
                                     <action selector="actionStateChanged:" destination="u82-eY-FBt" eventType="valueChanged" id="4bq-Q6-xLw"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ydM-Fl-iIg">
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="ydM-Fl-iIg">
                                 <rect key="frame" x="105" y="199" width="51" height="31"/>
                                 <connections>
                                     <action selector="prognosisStateChanged:" destination="u82-eY-FBt" eventType="valueChanged" id="ZsP-PD-0wv"/>
                                 </connections>
                             </switch>
-                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="406" placeholderIntrinsicHeight="44" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1kZ-kS-QhD">
+                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" placeholderIntrinsicWidth="406" placeholderIntrinsicHeight="44" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1kZ-kS-QhD">
                                 <rect key="frame" x="90" y="130" width="495" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1351,7 +1370,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                     </connections>
                 </textField>
             </objects>
-            <point key="canvasLocation" x="1523" y="-806"/>
+            <point key="canvasLocation" x="1505" y="-780"/>
         </scene>
         <!--Patients View Controller - Patient-->
         <scene sceneID="pg3-I7-TfO">
@@ -1431,18 +1450,14 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="FAi-1p-zQ0">
             <objects>
                 <viewController id="01U-Wq-zEX" customClass="SettingsImagesEditViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ClN-vO-jjr"/>
-                        <viewControllerLayoutGuide type="bottom" id="JBH-dv-4GF"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zQR-bi-SRI">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIR-dR-FAR">
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="UIR-dR-FAR">
                                 <rect key="frame" x="113" y="15" width="51" height="31"/>
                             </switch>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Spellcheck" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yts-Lj-dGL">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Spellcheck" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yts-Lj-dGL">
                                 <rect key="frame" x="20" y="20" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1597,88 +1612,84 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="Obq-B7-BmX">
             <objects>
                 <viewController id="u7H-fz-O2p" customClass="PrintViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zcN-SY-UW7"/>
-                        <viewControllerLayoutGuide type="bottom" id="bxK-er-7Fs"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="teO-1q-YaI">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-Lu-gGV">
+                            <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" id="Gic-Lu-gGV">
                                 <rect key="frame" x="46" y="20" width="612" height="632"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W2u-CH-Uvl">
+                                    <view contentMode="scaleToFill" id="W2u-CH-Uvl">
                                         <rect key="frame" x="1" y="0.0" width="611" height="792"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     </view>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNH-O2-NuC">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sNH-O2-NuC">
                                         <rect key="frame" x="12" y="154" width="188" height="15"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Dear, Contact" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9a3-Ok-218">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Dear, Contact" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9a3-Ok-218">
                                         <rect key="frame" x="50" y="185" width="466" height="21"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="On [DATE] a [TYPE OF EXAM] was performed on [Patient Name]. Below are the findings" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="531" translatesAutoresizingMaskIntoConstraints="NO" id="zqR-US-aYx">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="On [DATE] a [TYPE OF EXAM] was performed on [Patient Name]. Below are the findings" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zqR-US-aYx">
                                         <rect key="frame" x="60" y="200" width="531" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Exam Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7I-9L-sfx">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Exam Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m7I-9L-sfx">
                                         <rect key="frame" x="417" y="112" width="173" height="14"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36w-QN-Yg8">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="36w-QN-Yg8">
                                         <rect key="frame" x="134" y="17" width="344" height="88"/>
                                     </imageView>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Policy Number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRO-i6-fW6">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Policy Number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jRO-i6-fW6">
                                         <rect key="frame" x="266" y="126" width="324" height="13"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Insurance Address" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="310" translatesAutoresizingMaskIntoConstraints="NO" id="VP6-4S-V0V">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insurance Address" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VP6-4S-V0V">
                                         <rect key="frame" x="12" y="125" width="310" height="15"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="RE: Patient Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUc-rT-4Q1">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="RE: Patient Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mUc-rT-4Q1">
                                         <rect key="frame" x="266" y="139" width="324" height="15"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Insurance Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcC-pw-2Uv">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insurance Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lcC-pw-2Uv">
                                         <rect key="frame" x="12" y="112" width="196" height="14"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Footer Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="552" translatesAutoresizingMaskIntoConstraints="NO" id="CeX-86-PcU">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Footer Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CeX-86-PcU">
                                         <rect key="frame" x="20" y="720" width="552" height="63"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="City, State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDZ-Xf-LGN">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="City, State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lDZ-Xf-LGN">
                                         <rect key="frame" x="12" y="140" width="294" height="13"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -1689,10 +1700,10 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R6n-Qc-Z5s">
+                            <view contentMode="scaleToFill" id="R6n-Qc-Z5s">
                                 <rect key="frame" x="-150" y="645" width="859" height="123"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCW-bi-m1F">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DCW-bi-m1F">
                                         <rect key="frame" x="167" y="16" width="228" height="87"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="PNG" backgroundImage="Blue Button.png">
@@ -1706,7 +1717,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                             </segue>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTw-0D-hhL">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XTw-0D-hhL">
                                         <rect key="frame" x="630" y="16" width="209" height="87"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="PRINT" backgroundImage="Blue Button.png">
@@ -1717,7 +1728,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                             <action selector="print:" destination="u7H-fz-O2p" eventType="touchUpInside" id="sqd-ln-HIQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nf8-wY-bYK">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nf8-wY-bYK">
                                         <rect key="frame" x="403" y="16" width="219" height="87"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="EMAIL" backgroundImage="Blue Button.png">
@@ -1759,21 +1770,17 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="m5R-QL-egt">
             <objects>
                 <viewController id="01l-bn-kfz" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lu6-63-IKs"/>
-                        <viewControllerLayoutGuide type="bottom" id="jIG-1w-p3v"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zp2-08-0Ko">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Check Photo Library" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlI-lJ-1tg">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Check Photo Library" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nlI-lJ-1tg">
                                 <rect key="frame" x="20" y="20" width="158" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="For PNG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ozq-1M-mtH">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="For PNG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ozq-1M-mtH">
                                 <rect key="frame" x="67" y="49" width="67" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -1793,15 +1800,11 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
         <scene sceneID="7lG-li-zdE">
             <objects>
                 <viewController storyboardIdentifier="RequiredPopover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="35k-5a-LXh" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="825-Ib-uys"/>
-                        <viewControllerLayoutGuide type="bottom" id="r1l-za-Tqg"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PC1-st-ssG">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="This Is a Required Field" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYM-JZ-sWV">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This Is a Required Field" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AYM-JZ-sWV">
                                 <rect key="frame" x="10" y="7" width="180" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -1814,7 +1817,30 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fRb-MJ-KJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1531" y="-156"/>
+            <point key="canvasLocation" x="1409" y="-130"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="I4Z-h3-6r9">
+            <objects>
+                <viewController storyboardIdentifier="UnlicensedPopover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xuV-7a-zNX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d1g-4L-jVg">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="This Doctor is not Licensed with the current Insurance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="none" minimumFontSize="15" id="kOe-EV-tO6">
+                                <rect key="frame" x="9" y="6" width="171" height="87"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="swm-16-Yht" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439" y="-4643"/>
         </scene>
     </scenes>
     <resources>

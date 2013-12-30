@@ -36,6 +36,8 @@
 
 -(void) populateFieldsWithDataOfObject:(id)object
 {
+
+    [self clearTextfieldsAssociatedWithEntityType:[object class]];
     
     if ([object isKindOfClass:[Clinic class]]) {
         self.embeddedViewController.currentSuperobject = object;
@@ -70,10 +72,16 @@
     }
 }
 
--(void) clearTextfieldsAssociatedWithEntityType:(NSString *)type
+-(void) clearTextfieldsAssociatedWithEntityType:(Class)type
 {
-    if ([type isEqualToString:@"Doctor"]) {
+    if (type == [Doctor class]) {
         self.doctorNameField.text = @"";
+    }
+    
+    if (type == [Clinic class]) {
+        self.addressField.text = @"";
+        self.websiteField.text = @"";
+        self.phoneField.text = @"";
     }
 }
 

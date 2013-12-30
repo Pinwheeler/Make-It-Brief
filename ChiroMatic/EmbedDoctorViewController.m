@@ -10,6 +10,7 @@
 
 @interface EmbedDoctorViewController ()
 @property (weak, nonatomic) Doctor* currentlySelectedDoctor;
+@property (strong, nonatomic) UIPopoverController* popover;
 
 @end
 
@@ -44,7 +45,7 @@
     if (self.currentObject) {
         [self.fetchedResultsController.managedObjectContext deleteObject:self.currentObject];
         [self saveData];
-        [self.delegate clearTextfieldsAssociatedWithEntityType:@"Doctor"];
+        [self.delegate clearTextfieldsAssociatedWithEntityType:[Doctor class]];
     }
 }
 
@@ -138,8 +139,22 @@
     }
     if ([self.currentSuperobject isKindOfClass:[Patient class]]) {
         Patient* patient = (Patient*)self.currentSuperobject;
-        patient.doctor = doctor;
-        [doctor addPatientsObject:patient];
+        
+        //--Check if the doctor is liscensed with the patient's current insurance
+        Insurance* insurance = patient.insurance;
+        if (![insurance.doctors containsObject:doctor]) {
+            // Create error message
+            [self createErrorPopupAtView:tableView inView:self.view];
+            for (NSIndexPath* indexPath in tableView.indexPathsForSelectedRows) {
+                [tableView deselectRowAtIndexPath:indexPath animated:YES];
+                [[tableView cellForRowAtIndexPath:indexPath] setAccessoryType:UITableViewCellAccessoryNone];
+            }
+            
+        }
+        else {
+            patient.doctor = doctor;
+            [doctor addPatientsObject:patient];
+        }
     }
         //Otherwise make all edits before selecting the new one
     self.currentlySelectedDoctor = doctor;
@@ -154,6 +169,13 @@
         Insurance* insurance = (Insurance*)self.currentSuperobject;
         [insurance removeDoctorsObject:doctor];
     }
+}
+
+- (void) createErrorPopupAtView:(UIView*)targetView inView:(UIView*)parentView{
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    UIViewController* vc = [storyboard instantiateViewControllerWithIdentifier:@"UnlicensedPopover"];
+    self.popover = [[UIPopoverController alloc]initWithContentViewController:vc];
+    [self.popover presentPopoverFromRect:targetView.frame inView:parentView permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 

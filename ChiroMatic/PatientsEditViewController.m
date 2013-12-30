@@ -32,6 +32,9 @@
 - (void) populateFieldsWithDataOfObject:(id)object;
 {
     if (object) {
+        
+        [self clearTextfieldsAssociatedWithEntityType:[object class]];
+        
         if ([object isKindOfClass:[Patient class]]) {
             Patient* patient = (Patient*)object;
             self.embeddedViewController.currentSuperobject = patient;
@@ -70,6 +73,20 @@
         self.dateOfInjuryField.text = nil;
         self.policyNumberField.text = nil;
          */
+    }
+}
+
+- (void) clearTextfieldsAssociatedWithEntityType:(Class)type
+{
+    if (type == [Patient class]) {
+        self.nameField.text = @"";
+        self.fileNumberField.text = @"";
+        self.dateOfBirthField.text = @"";
+        self.dateOfInjuryField.text = @"";
+        self.policyNumberField.text = @"";
+        
+        self.embeddedDoctorViewController.currentObject = nil;
+        self.embeddedDoctorViewController.currentObject = nil;
     }
 }
 

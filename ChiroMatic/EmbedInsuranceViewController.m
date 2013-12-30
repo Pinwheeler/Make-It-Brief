@@ -7,6 +7,7 @@
 //
 
 #import "EmbedInsuranceViewController.h"
+#import "Doctor.h"
 
 @interface EmbedInsuranceViewController ()
 
@@ -64,6 +65,7 @@
     }
     currentPatient.insurance = insurance;
     [insurance addPatientsObject:currentPatient];
+    [currentPatient.doctor removePatientsObject:currentPatient];
     
     [self saveData];
 }
