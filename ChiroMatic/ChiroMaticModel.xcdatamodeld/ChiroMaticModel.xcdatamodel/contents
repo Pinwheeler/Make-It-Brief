@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Clinic" representedClassName="Clinic" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="doctors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Doctor" inverseName="clinic" inverseEntity="Doctor" syncable="YES"/>
+        <relationship name="reports" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Report" inverseName="clinic" inverseEntity="Report" syncable="YES"/>
+    </entity>
+    <entity name="Doctor" representedClassName="Doctor" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="signature" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="clinic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Clinic" inverseName="doctors" inverseEntity="Clinic" syncable="YES"/>
+        <relationship name="insurances" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Insurance" inverseName="doctors" inverseEntity="Insurance" syncable="YES"/>
+        <relationship name="patients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Patient" inverseName="doctor" inverseEntity="Patient" syncable="YES"/>
+        <relationship name="reports" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Report" inverseName="doctor" inverseEntity="Report" syncable="YES"/>
+    </entity>
+    <entity name="Exam" representedClassName="Exam" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="result" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="patient" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="exams" inverseEntity="Patient" syncable="YES"/>
+        <relationship name="report" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Report" inverseName="exams" inverseEntity="Report" syncable="YES"/>
+    </entity>
+    <entity name="Insurance" representedClassName="Insurance" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="suiteNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="doctors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Doctor" inverseName="insurances" inverseEntity="Doctor" syncable="YES"/>
+        <relationship name="patients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Patient" inverseName="insurance" inverseEntity="Patient" syncable="YES"/>
+        <relationship name="reportsFiled" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Report" inverseName="insuranceBilled" inverseEntity="Report" syncable="YES"/>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" syncable="YES">
+        <attribute name="birthDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fileNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="injuryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="doctor" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Doctor" inverseName="patients" inverseEntity="Doctor" syncable="YES"/>
+        <relationship name="exams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exam" inverseName="patient" inverseEntity="Exam" syncable="YES"/>
+        <relationship name="insurance" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Insurance" inverseName="patients" inverseEntity="Insurance" syncable="YES"/>
+        <relationship name="report" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Report" inverseName="patient" inverseEntity="Report" syncable="YES"/>
+    </entity>
+    <entity name="Report" representedClassName="Report" syncable="YES">
+        <attribute name="action" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prognosis" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clinic" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Clinic" inverseName="reports" inverseEntity="Clinic" syncable="YES"/>
+        <relationship name="doctor" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Doctor" inverseName="reports" inverseEntity="Doctor" syncable="YES"/>
+        <relationship name="exams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exam" inverseName="report" inverseEntity="Exam" syncable="YES"/>
+        <relationship name="insuranceBilled" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Insurance" inverseName="reportsFiled" inverseEntity="Insurance" syncable="YES"/>
+        <relationship name="patient" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="report" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Clinic" positionX="52" positionY="-63" width="128" height="150"/>
+        <element name="Doctor" positionX="-117" positionY="45" width="128" height="135"/>
+        <element name="Exam" positionX="61" positionY="306" width="128" height="120"/>
+        <element name="Insurance" positionX="250" positionY="72" width="128" height="210"/>
+        <element name="Patient" positionX="-135" positionY="225" width="128" height="180"/>
+        <element name="Report" positionX="45" positionY="108" width="128" height="180"/>
+    </elements>
+</model>

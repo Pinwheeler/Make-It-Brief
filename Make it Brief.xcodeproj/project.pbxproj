@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6815B1B9170668D6008BD560 /* Insurance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6815B1B8170668D6008BD560 /* Insurance.m */; };
+		6815B1BC170668D6008BD560 /* Clinic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6815B1BB170668D6008BD560 /* Clinic.m */; };
+		6815B1BF170668D6008BD560 /* Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = 6815B1BE170668D6008BD560 /* Exam.m */; };
+		6815B1C2170668D6008BD560 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6815B1C1170668D6008BD560 /* Patient.m */; };
+		6815B1C5170668D6008BD560 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6815B1C4170668D6008BD560 /* Doctor.m */; };
+		6815B1C8170682A2008BD560 /* TotalStringToDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6815B1C7170682A2008BD560 /* TotalStringToDateFormatter.m */; };
+		682A3A2117064DA1002800F7 /* PrintContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682A3A2017064DA1002800F7 /* PrintContentViewController.m */; };
+		682BE0AE1714D1870032D1DF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682BE0AD1714D1870032D1DF /* CoreText.framework */; };
+		6830030117207A8400B73202 /* SettingsImagesEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6830030017207A8400B73202 /* SettingsImagesEditViewController.m */; };
+		6830030417207ABD00B73202 /* SettingsImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6830030317207ABD00B73202 /* SettingsImagesViewController.m */; };
+		683003071720B72000B73202 /* ReportModalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683003061720B71F00B73202 /* ReportModalTableViewController.m */; };
+		684A363F17264FC500C1A946 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684A363E17264FC500C1A946 /* MessageUI.framework */; };
+		684A36411726557F00C1A946 /* MakeItBriefSplashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 684A36401726557F00C1A946 /* MakeItBriefSplashLogo.png */; };
+		684A36431726563A00C1A946 /* Blue Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 684A36421726563A00C1A946 /* Blue Button.png */; };
+		684A3645172658CF00C1A946 /* make it brief transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 684A3644172658CF00C1A946 /* make it brief transparent.png */; };
+		684A364717265B9000C1A946 /* mib transparent144x.png in Resources */ = {isa = PBXBuildFile; fileRef = 684A364617265B9000C1A946 /* mib transparent144x.png */; };
+		684A36491726FCE000C1A946 /* mib transparentx.png in Resources */ = {isa = PBXBuildFile; fileRef = 684A36481726FCE000C1A946 /* mib transparentx.png */; };
+		684A364B17271F4A00C1A946 /* ExamProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 684A364A17271F4A00C1A946 /* ExamProperties.plist */; };
+		6863B56116FBBB7E00DF6BF8 /* EmbedDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6863B56016FBBB7E00DF6BF8 /* EmbedDoctorViewController.m */; };
+		6863B56416FBBBF800DF6BF8 /* DoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6863B56316FBBBF700DF6BF8 /* DoctorViewController.m */; };
+		6863B56716FBBD9D00DF6BF8 /* ClinicsDoctorsEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6863B56616FBBD9D00DF6BF8 /* ClinicsDoctorsEditViewController.m */; };
+		68654E3B1700DE2700AC119F /* ReportPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68654E3A1700DE2700AC119F /* ReportPageRenderer.m */; };
+		68654E3D1700E08200AC119F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68654E3C1700E08200AC119F /* QuartzCore.framework */; };
+		68654E4317035CA200AC119F /* ChiroMaticSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68654E4217035CA200AC119F /* ChiroMaticSplashViewController.m */; };
+		6876644C16FCD5B900EDF2F7 /* InsuranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876644B16FCD5B900EDF2F7 /* InsuranceViewController.m */; };
+		6876645B16FCE6C300EDF2F7 /* InsuranceEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876645A16FCE6C300EDF2F7 /* InsuranceEditViewController.m */; };
+		6876646116FE43E800EDF2F7 /* EmbedInsuranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876646016FE43E800EDF2F7 /* EmbedInsuranceViewController.m */; };
+		68850A42172795610064B0BD /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 68850A41172795610064B0BD /* Default-Landscape~ipad.png */; };
+		68850A45172795DB0064B0BD /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 68850A43172795810064B0BD /* Default-Landscape@2x~ipad.png */; };
+		68891B4116FFFEF600FF1930 /* ExamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68891B4016FFFEF600FF1930 /* ExamsViewController.m */; };
+		68891B47170001FB00FF1930 /* ReportBuilderMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68891B46170001FB00FF1930 /* ReportBuilderMasterViewController.m */; };
+		68891B4A1700101800FF1930 /* ReportBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68891B491700101800FF1930 /* ReportBuilderViewController.m */; };
+		68BB1E971721D0C700666EDD /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB1E961721D0C700666EDD /* Report.m */; };
+		68BB1EA5172201DC00666EDD /* GKCropBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB1E9A172201DC00666EDD /* GKCropBorderView.m */; };
+		68BB1EA6172201DC00666EDD /* GKImageCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB1E9C172201DC00666EDD /* GKImageCropOverlayView.m */; };
+		68BB1EA7172201DC00666EDD /* GKImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB1E9E172201DC00666EDD /* GKImageCropView.m */; };
+		68BB1EA8172201DC00666EDD /* GKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB1EA0172201DC00666EDD /* GKImageCropViewController.m */; };
+		68BB1EA9172201DC00666EDD /* GKImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB1EA2172201DC00666EDD /* GKImagePicker.m */; };
+		68BB1EAA172201DC00666EDD /* GKResizeableCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB1EA4172201DC00666EDD /* GKResizeableCropOverlayView.m */; };
+		68BB1EB4172201E800666EDD /* PLCameraSheetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EAC172201E800666EDD /* PLCameraSheetButton.png */; };
+		68BB1EB5172201E800666EDD /* PLCameraSheetButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EAD172201E800666EDD /* PLCameraSheetButton@2x.png */; };
+		68BB1EB6172201E800666EDD /* PLCameraSheetButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EAE172201E800666EDD /* PLCameraSheetButtonPressed.png */; };
+		68BB1EB7172201E800666EDD /* PLCameraSheetButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EAF172201E800666EDD /* PLCameraSheetButtonPressed@2x.png */; };
+		68BB1EB8172201E800666EDD /* PLCameraSheetDoneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EB0172201E800666EDD /* PLCameraSheetDoneButton.png */; };
+		68BB1EB9172201E800666EDD /* PLCameraSheetDoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EB1172201E800666EDD /* PLCameraSheetDoneButton@2x.png */; };
+		68BB1EBA172201E800666EDD /* PLCameraSheetDoneButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EB2172201E800666EDD /* PLCameraSheetDoneButtonPressed.png */; };
+		68BB1EBB172201E800666EDD /* PLCameraSheetDoneButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BB1EB3172201E800666EDD /* PLCameraSheetDoneButtonPressed@2x.png */; };
+		68BF8D5216FA696E002DF7D0 /* PrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF8D5116FA696E002DF7D0 /* PrintViewController.m */; };
+		68C398A916F79B500077CF0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C398A816F79B500077CF0D /* UIKit.framework */; };
+		68C398AB16F79B500077CF0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C398AA16F79B500077CF0D /* Foundation.framework */; };
+		68C398AD16F79B500077CF0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C398AC16F79B500077CF0D /* CoreGraphics.framework */; };
+		68C398B316F79B500077CF0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C398B116F79B500077CF0D /* InfoPlist.strings */; };
+		68C398B516F79B500077CF0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C398B416F79B500077CF0D /* main.m */; };
+		68C398B916F79B500077CF0D /* ChiroMaticAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C398B816F79B500077CF0D /* ChiroMaticAppDelegate.m */; };
+		68C398BB16F79B500077CF0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C398BA16F79B500077CF0D /* Default.png */; };
+		68C398BD16F79B500077CF0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C398BC16F79B500077CF0D /* Default@2x.png */; };
+		68C398BF16F79B500077CF0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C398BE16F79B500077CF0D /* Default-568h@2x.png */; };
+		68C398C216F79B500077CF0D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C398C016F79B500077CF0D /* MainStoryboard.storyboard */; };
+		68C398C516F79B500077CF0D /* ChiroMaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C398C416F79B500077CF0D /* ChiroMaticViewController.m */; };
+		68C398CD16F79B8C0077CF0D /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C398CC16F79B8C0077CF0D /* CoreDataTableViewController.m */; };
+		68C398CF16F79BFC0077CF0D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C398CE16F79BFC0077CF0D /* CoreData.framework */; };
+		68C398D216F79FB40077CF0D /* PatientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C398D116F79FB40077CF0D /* PatientsViewController.m */; };
+		68C398D516F7A0860077CF0D /* ChiroMaticModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68C398D316F7A0860077CF0D /* ChiroMaticModel.xcdatamodeld */; };
+		68C398D616F7A0BC0077CF0D /* ChiroMaticModel.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 68C398D316F7A0860077CF0D /* ChiroMaticModel.xcdatamodeld */; };
+		68CD1D79170E009B00B188A7 /* Exam+ValueColumns.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CD1D78170E009B00B188A7 /* Exam+ValueColumns.m */; };
+		68CD1D7C170E199900B188A7 /* ExamsEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CD1D7B170E199900B188A7 /* ExamsEditViewController.m */; };
+		68CD1D81170E28CC00B188A7 /* HardcodedExamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CD1D80170E28CC00B188A7 /* HardcodedExamsViewController.m */; };
+		68CD1D84170E462600B188A7 /* EmbedPatientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CD1D83170E462600B188A7 /* EmbedPatientsViewController.m */; };
+		68E4F56A16F7C43F00A12BCD /* PatientsEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4F56916F7C43F00A12BCD /* PatientsEditViewController.m */; };
+		68E4F5AE16F987FD00A12BCD /* ClinicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4F5AD16F987FD00A12BCD /* ClinicsViewController.m */; };
+		68E4F5B116F98E9000A12BCD /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4F5B016F98E9000A12BCD /* EditViewController.m */; };
+		833D8B9F171A2B310096373F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 833D8B9E171A2B310096373F /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6815B1B7170668D6008BD560 /* Insurance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Insurance.h; sourceTree = "<group>"; };
+		6815B1B8170668D6008BD560 /* Insurance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Insurance.m; sourceTree = "<group>"; };
+		6815B1BA170668D6008BD560 /* Clinic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clinic.h; sourceTree = "<group>"; };
+		6815B1BB170668D6008BD560 /* Clinic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clinic.m; sourceTree = "<group>"; };
+		6815B1BD170668D6008BD560 /* Exam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exam.h; sourceTree = "<group>"; };
+		6815B1BE170668D6008BD560 /* Exam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exam.m; sourceTree = "<group>"; };
+		6815B1C0170668D6008BD560 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		6815B1C1170668D6008BD560 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		6815B1C3170668D6008BD560 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		6815B1C4170668D6008BD560 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		6815B1C6170682A2008BD560 /* TotalStringToDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalStringToDateFormatter.h; sourceTree = "<group>"; };
+		6815B1C7170682A2008BD560 /* TotalStringToDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalStringToDateFormatter.m; sourceTree = "<group>"; };
+		682A3A1F17064DA1002800F7 /* PrintContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintContentViewController.h; sourceTree = "<group>"; };
+		682A3A2017064DA1002800F7 /* PrintContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintContentViewController.m; sourceTree = "<group>"; };
+		682BE0AD1714D1870032D1DF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		683002FF17207A8400B73202 /* SettingsImagesEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsImagesEditViewController.h; sourceTree = "<group>"; };
+		6830030017207A8400B73202 /* SettingsImagesEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsImagesEditViewController.m; sourceTree = "<group>"; };
+		6830030217207ABD00B73202 /* SettingsImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsImagesViewController.h; sourceTree = "<group>"; };
+		6830030317207ABD00B73202 /* SettingsImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsImagesViewController.m; sourceTree = "<group>"; };
+		683003051720B71F00B73202 /* ReportModalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportModalTableViewController.h; sourceTree = "<group>"; };
+		683003061720B71F00B73202 /* ReportModalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportModalTableViewController.m; sourceTree = "<group>"; };
+		684A363E17264FC500C1A946 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		684A36401726557F00C1A946 /* MakeItBriefSplashLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MakeItBriefSplashLogo.png; sourceTree = "<group>"; };
+		684A36421726563A00C1A946 /* Blue Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Button.png"; sourceTree = "<group>"; };
+		684A3644172658CF00C1A946 /* make it brief transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "make it brief transparent.png"; sourceTree = "<group>"; };
+		684A364617265B9000C1A946 /* mib transparent144x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mib transparent144x.png"; sourceTree = "<group>"; };
+		684A36481726FCE000C1A946 /* mib transparentx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mib transparentx.png"; sourceTree = "<group>"; };
+		684A364A17271F4A00C1A946 /* ExamProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExamProperties.plist; sourceTree = "<group>"; };
+		6863B55F16FBBB7E00DF6BF8 /* EmbedDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedDoctorViewController.h; sourceTree = "<group>"; };
+		6863B56016FBBB7E00DF6BF8 /* EmbedDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedDoctorViewController.m; sourceTree = "<group>"; };
+		6863B56216FBBBF700DF6BF8 /* DoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorViewController.h; sourceTree = "<group>"; };
+		6863B56316FBBBF700DF6BF8 /* DoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorViewController.m; sourceTree = "<group>"; };
+		6863B56516FBBD9D00DF6BF8 /* ClinicsDoctorsEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinicsDoctorsEditViewController.h; sourceTree = "<group>"; };
+		6863B56616FBBD9D00DF6BF8 /* ClinicsDoctorsEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinicsDoctorsEditViewController.m; sourceTree = "<group>"; };
+		68654E391700DE2600AC119F /* ReportPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportPageRenderer.h; sourceTree = "<group>"; };
+		68654E3A1700DE2700AC119F /* ReportPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportPageRenderer.m; sourceTree = "<group>"; };
+		68654E3C1700E08200AC119F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		68654E4117035CA100AC119F /* ChiroMaticSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiroMaticSplashViewController.h; sourceTree = "<group>"; };
+		68654E4217035CA200AC119F /* ChiroMaticSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiroMaticSplashViewController.m; sourceTree = "<group>"; };
+		6876644A16FCD5B900EDF2F7 /* InsuranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsuranceViewController.h; sourceTree = "<group>"; };
+		6876644B16FCD5B900EDF2F7 /* InsuranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsuranceViewController.m; sourceTree = "<group>"; };
+		6876645916FCE6C300EDF2F7 /* InsuranceEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsuranceEditViewController.h; sourceTree = "<group>"; };
+		6876645A16FCE6C300EDF2F7 /* InsuranceEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsuranceEditViewController.m; sourceTree = "<group>"; };
+		6876645F16FE43E800EDF2F7 /* EmbedInsuranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedInsuranceViewController.h; sourceTree = "<group>"; };
+		6876646016FE43E800EDF2F7 /* EmbedInsuranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedInsuranceViewController.m; sourceTree = "<group>"; };
+		68850A41172795610064B0BD /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		68850A43172795810064B0BD /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		68891B3F16FFFEF600FF1930 /* ExamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamsViewController.h; sourceTree = "<group>"; };
+		68891B4016FFFEF600FF1930 /* ExamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamsViewController.m; sourceTree = "<group>"; };
+		68891B45170001FB00FF1930 /* ReportBuilderMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportBuilderMasterViewController.h; sourceTree = "<group>"; };
+		68891B46170001FB00FF1930 /* ReportBuilderMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportBuilderMasterViewController.m; sourceTree = "<group>"; };
+		68891B481700101700FF1930 /* ReportBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportBuilderViewController.h; sourceTree = "<group>"; };
+		68891B491700101800FF1930 /* ReportBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportBuilderViewController.m; sourceTree = "<group>"; };
+		68BB1E941721C70000666EDD /* CustomPopoverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopoverDelegate.h; sourceTree = "<group>"; };
+		68BB1E951721D0C700666EDD /* Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
+		68BB1E961721D0C700666EDD /* Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
+		68BB1E99172201DC00666EDD /* GKCropBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKCropBorderView.h; sourceTree = "<group>"; };
+		68BB1E9A172201DC00666EDD /* GKCropBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKCropBorderView.m; sourceTree = "<group>"; };
+		68BB1E9B172201DC00666EDD /* GKImageCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImageCropOverlayView.h; sourceTree = "<group>"; };
+		68BB1E9C172201DC00666EDD /* GKImageCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImageCropOverlayView.m; sourceTree = "<group>"; };
+		68BB1E9D172201DC00666EDD /* GKImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImageCropView.h; sourceTree = "<group>"; };
+		68BB1E9E172201DC00666EDD /* GKImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImageCropView.m; sourceTree = "<group>"; };
+		68BB1E9F172201DC00666EDD /* GKImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImageCropViewController.h; sourceTree = "<group>"; };
+		68BB1EA0172201DC00666EDD /* GKImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImageCropViewController.m; sourceTree = "<group>"; };
+		68BB1EA1172201DC00666EDD /* GKImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImagePicker.h; sourceTree = "<group>"; };
+		68BB1EA2172201DC00666EDD /* GKImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImagePicker.m; sourceTree = "<group>"; };
+		68BB1EA3172201DC00666EDD /* GKResizeableCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKResizeableCropOverlayView.h; sourceTree = "<group>"; };
+		68BB1EA4172201DC00666EDD /* GKResizeableCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKResizeableCropOverlayView.m; sourceTree = "<group>"; };
+		68BB1EAC172201E800666EDD /* PLCameraSheetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLCameraSheetButton.png; sourceTree = "<group>"; };
+		68BB1EAD172201E800666EDD /* PLCameraSheetButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLCameraSheetButton@2x.png"; sourceTree = "<group>"; };
+		68BB1EAE172201E800666EDD /* PLCameraSheetButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLCameraSheetButtonPressed.png; sourceTree = "<group>"; };
+		68BB1EAF172201E800666EDD /* PLCameraSheetButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLCameraSheetButtonPressed@2x.png"; sourceTree = "<group>"; };
+		68BB1EB0172201E800666EDD /* PLCameraSheetDoneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLCameraSheetDoneButton.png; sourceTree = "<group>"; };
+		68BB1EB1172201E800666EDD /* PLCameraSheetDoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLCameraSheetDoneButton@2x.png"; sourceTree = "<group>"; };
+		68BB1EB2172201E800666EDD /* PLCameraSheetDoneButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLCameraSheetDoneButtonPressed.png; sourceTree = "<group>"; };
+		68BB1EB3172201E800666EDD /* PLCameraSheetDoneButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLCameraSheetDoneButtonPressed@2x.png"; sourceTree = "<group>"; };
+		68BF8D5016FA696E002DF7D0 /* PrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintViewController.h; sourceTree = "<group>"; };
+		68BF8D5116FA696E002DF7D0 /* PrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintViewController.m; sourceTree = "<group>"; };
+		68BF8D5616FA6EC4002DF7D0 /* PrintViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintViewDatasource.h; sourceTree = "<group>"; };
+		68C398A516F79B500077CF0D /* Make it Brief.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make it Brief.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C398A816F79B500077CF0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68C398AA16F79B500077CF0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68C398AC16F79B500077CF0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68C398B016F79B500077CF0D /* Make it Brief-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Make it Brief-Info.plist"; sourceTree = "<group>"; };
+		68C398B216F79B500077CF0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68C398B416F79B500077CF0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68C398B616F79B500077CF0D /* Make it Brief-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Make it Brief-Prefix.pch"; sourceTree = "<group>"; };
+		68C398B716F79B500077CF0D /* ChiroMaticAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChiroMaticAppDelegate.h; sourceTree = "<group>"; };
+		68C398B816F79B500077CF0D /* ChiroMaticAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiroMaticAppDelegate.m; sourceTree = "<group>"; };
+		68C398BA16F79B500077CF0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		68C398BC16F79B500077CF0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		68C398BE16F79B500077CF0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		68C398C116F79B500077CF0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		68C398C316F79B500077CF0D /* ChiroMaticViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChiroMaticViewController.h; sourceTree = "<group>"; };
+		68C398C416F79B500077CF0D /* ChiroMaticViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiroMaticViewController.m; sourceTree = "<group>"; };
+		68C398CB16F79B8C0077CF0D /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		68C398CC16F79B8C0077CF0D /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		68C398CE16F79BFC0077CF0D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		68C398D016F79FB40077CF0D /* PatientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsViewController.h; sourceTree = "<group>"; };
+		68C398D116F79FB40077CF0D /* PatientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsViewController.m; sourceTree = "<group>"; };
+		68C398D416F7A0860077CF0D /* ChiroMaticModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChiroMaticModel.xcdatamodel; sourceTree = "<group>"; };
+		68CD1D77170E009B00B188A7 /* Exam+ValueColumns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exam+ValueColumns.h"; sourceTree = "<group>"; };
+		68CD1D78170E009B00B188A7 /* Exam+ValueColumns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exam+ValueColumns.m"; sourceTree = "<group>"; };
+		68CD1D7A170E199900B188A7 /* ExamsEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamsEditViewController.h; sourceTree = "<group>"; };
+		68CD1D7B170E199900B188A7 /* ExamsEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamsEditViewController.m; sourceTree = "<group>"; };
+		68CD1D7F170E28CC00B188A7 /* HardcodedExamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardcodedExamsViewController.h; sourceTree = "<group>"; };
+		68CD1D80170E28CC00B188A7 /* HardcodedExamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardcodedExamsViewController.m; sourceTree = "<group>"; };
+		68CD1D82170E462500B188A7 /* EmbedPatientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedPatientsViewController.h; sourceTree = "<group>"; };
+		68CD1D83170E462600B188A7 /* EmbedPatientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedPatientsViewController.m; sourceTree = "<group>"; };
+		68E4F56816F7C43F00A12BCD /* PatientsEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsEditViewController.h; sourceTree = "<group>"; };
+		68E4F56916F7C43F00A12BCD /* PatientsEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsEditViewController.m; sourceTree = "<group>"; };
+		68E4F58216F8F74200A12BCD /* DataPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPopulator.h; sourceTree = "<group>"; };
+		68E4F58316F8F75800A12BCD /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		68E4F5AC16F987FD00A12BCD /* ClinicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinicsViewController.h; sourceTree = "<group>"; };
+		68E4F5AD16F987FD00A12BCD /* ClinicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinicsViewController.m; sourceTree = "<group>"; };
+		68E4F5AF16F98E8F00A12BCD /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		68E4F5B016F98E9000A12BCD /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		833D8B9E171A2B310096373F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68C398A216F79B500077CF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684A363F17264FC500C1A946 /* MessageUI.framework in Frameworks */,
+				682BE0AE1714D1870032D1DF /* CoreText.framework in Frameworks */,
+				68654E3D1700E08200AC119F /* QuartzCore.framework in Frameworks */,
+				68C398CF16F79BFC0077CF0D /* CoreData.framework in Frameworks */,
+				68C398A916F79B500077CF0D /* UIKit.framework in Frameworks */,
+				68C398AB16F79B500077CF0D /* Foundation.framework in Frameworks */,
+				68C398AD16F79B500077CF0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BB1E98172201DC00666EDD /* GKClasses */ = {
+			isa = PBXGroup;
+			children = (
+				68BB1E99172201DC00666EDD /* GKCropBorderView.h */,
+				68BB1E9A172201DC00666EDD /* GKCropBorderView.m */,
+				68BB1E9B172201DC00666EDD /* GKImageCropOverlayView.h */,
+				68BB1E9C172201DC00666EDD /* GKImageCropOverlayView.m */,
+				68BB1E9D172201DC00666EDD /* GKImageCropView.h */,
+				68BB1E9E172201DC00666EDD /* GKImageCropView.m */,
+				68BB1E9F172201DC00666EDD /* GKImageCropViewController.h */,
+				68BB1EA0172201DC00666EDD /* GKImageCropViewController.m */,
+				68BB1EA1172201DC00666EDD /* GKImagePicker.h */,
+				68BB1EA2172201DC00666EDD /* GKImagePicker.m */,
+				68BB1EA3172201DC00666EDD /* GKResizeableCropOverlayView.h */,
+				68BB1EA4172201DC00666EDD /* GKResizeableCropOverlayView.m */,
+			);
+			path = GKClasses;
+			sourceTree = "<group>";
+		};
+		68BB1EAB172201E800666EDD /* GKImages */ = {
+			isa = PBXGroup;
+			children = (
+				68BB1EAC172201E800666EDD /* PLCameraSheetButton.png */,
+				68BB1EAD172201E800666EDD /* PLCameraSheetButton@2x.png */,
+				68BB1EAE172201E800666EDD /* PLCameraSheetButtonPressed.png */,
+				68BB1EAF172201E800666EDD /* PLCameraSheetButtonPressed@2x.png */,
+				68BB1EB0172201E800666EDD /* PLCameraSheetDoneButton.png */,
+				68BB1EB1172201E800666EDD /* PLCameraSheetDoneButton@2x.png */,
+				68BB1EB2172201E800666EDD /* PLCameraSheetDoneButtonPressed.png */,
+				68BB1EB3172201E800666EDD /* PLCameraSheetDoneButtonPressed@2x.png */,
+			);
+			path = GKImages;
+			sourceTree = "<group>";
+		};
+		68C3989C16F79B500077CF0D = {
+			isa = PBXGroup;
+			children = (
+				68850A43172795810064B0BD /* Default-Landscape@2x~ipad.png */,
+				68850A41172795610064B0BD /* Default-Landscape~ipad.png */,
+				684A36481726FCE000C1A946 /* mib transparentx.png */,
+				684A364617265B9000C1A946 /* mib transparent144x.png */,
+				684A3644172658CF00C1A946 /* make it brief transparent.png */,
+				833D8B9E171A2B310096373F /* README.md */,
+				684A36421726563A00C1A946 /* Blue Button.png */,
+				684A36401726557F00C1A946 /* MakeItBriefSplashLogo.png */,
+				68BB1EAB172201E800666EDD /* GKImages */,
+				68BB1E98172201DC00666EDD /* GKClasses */,
+				68C398AE16F79B500077CF0D /* ChiroMatic */,
+				68C398A716F79B500077CF0D /* Frameworks */,
+				68C398A616F79B500077CF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68C398A616F79B500077CF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C398A516F79B500077CF0D /* Make it Brief.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68C398A716F79B500077CF0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684A363E17264FC500C1A946 /* MessageUI.framework */,
+				682BE0AD1714D1870032D1DF /* CoreText.framework */,
+				68654E3C1700E08200AC119F /* QuartzCore.framework */,
+				68C398CE16F79BFC0077CF0D /* CoreData.framework */,
+				68C398A816F79B500077CF0D /* UIKit.framework */,
+				68C398AA16F79B500077CF0D /* Foundation.framework */,
+				68C398AC16F79B500077CF0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68C398AE16F79B500077CF0D /* ChiroMatic */ = {
+			isa = PBXGroup;
+			children = (
+				68E4F58216F8F74200A12BCD /* DataPopulator.h */,
+				68E4F58316F8F75800A12BCD /* DataManager.h */,
+				68BF8D5616FA6EC4002DF7D0 /* PrintViewDatasource.h */,
+				68BB1E941721C70000666EDD /* CustomPopoverDelegate.h */,
+				68C398C016F79B500077CF0D /* MainStoryboard.storyboard */,
+				68E4F56C16F814D700A12BCD /* Table View Controllers */,
+				68E4F56B16F814C400A12BCD /* Edit View Controllers */,
+				68C398B716F79B500077CF0D /* ChiroMaticAppDelegate.h */,
+				68C398B816F79B500077CF0D /* ChiroMaticAppDelegate.m */,
+				68C398C316F79B500077CF0D /* ChiroMaticViewController.h */,
+				68C398C416F79B500077CF0D /* ChiroMaticViewController.m */,
+				68BF8D5016FA696E002DF7D0 /* PrintViewController.h */,
+				68BF8D5116FA696E002DF7D0 /* PrintViewController.m */,
+				682A3A1F17064DA1002800F7 /* PrintContentViewController.h */,
+				682A3A2017064DA1002800F7 /* PrintContentViewController.m */,
+				68891B45170001FB00FF1930 /* ReportBuilderMasterViewController.h */,
+				68891B46170001FB00FF1930 /* ReportBuilderMasterViewController.m */,
+				6830030217207ABD00B73202 /* SettingsImagesViewController.h */,
+				6830030317207ABD00B73202 /* SettingsImagesViewController.m */,
+				68654E391700DE2600AC119F /* ReportPageRenderer.h */,
+				68654E3A1700DE2700AC119F /* ReportPageRenderer.m */,
+				68654E4117035CA100AC119F /* ChiroMaticSplashViewController.h */,
+				68654E4217035CA200AC119F /* ChiroMaticSplashViewController.m */,
+				6815B1C6170682A2008BD560 /* TotalStringToDateFormatter.h */,
+				6815B1C7170682A2008BD560 /* TotalStringToDateFormatter.m */,
+				684A364A17271F4A00C1A946 /* ExamProperties.plist */,
+				68C398AF16F79B500077CF0D /* Supporting Files */,
+				68E4F5AB16F983DB00A12BCD /* Managed Objects */,
+			);
+			path = ChiroMatic;
+			sourceTree = "<group>";
+		};
+		68C398AF16F79B500077CF0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68C398B016F79B500077CF0D /* Make it Brief-Info.plist */,
+				68C398B116F79B500077CF0D /* InfoPlist.strings */,
+				68C398B416F79B500077CF0D /* main.m */,
+				68C398B616F79B500077CF0D /* Make it Brief-Prefix.pch */,
+				68C398BA16F79B500077CF0D /* Default.png */,
+				68C398BC16F79B500077CF0D /* Default@2x.png */,
+				68C398BE16F79B500077CF0D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E4F56B16F814C400A12BCD /* Edit View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68E4F5AF16F98E8F00A12BCD /* EditViewController.h */,
+				68E4F5B016F98E9000A12BCD /* EditViewController.m */,
+				68E4F56816F7C43F00A12BCD /* PatientsEditViewController.h */,
+				68E4F56916F7C43F00A12BCD /* PatientsEditViewController.m */,
+				6863B56516FBBD9D00DF6BF8 /* ClinicsDoctorsEditViewController.h */,
+				6863B56616FBBD9D00DF6BF8 /* ClinicsDoctorsEditViewController.m */,
+				6876645916FCE6C300EDF2F7 /* InsuranceEditViewController.h */,
+				6876645A16FCE6C300EDF2F7 /* InsuranceEditViewController.m */,
+				68891B481700101700FF1930 /* ReportBuilderViewController.h */,
+				68891B491700101800FF1930 /* ReportBuilderViewController.m */,
+				68CD1D7A170E199900B188A7 /* ExamsEditViewController.h */,
+				68CD1D7B170E199900B188A7 /* ExamsEditViewController.m */,
+				683002FF17207A8400B73202 /* SettingsImagesEditViewController.h */,
+				6830030017207A8400B73202 /* SettingsImagesEditViewController.m */,
+			);
+			name = "Edit View Controllers";
+			sourceTree = "<group>";
+		};
+		68E4F56C16F814D700A12BCD /* Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68C398CB16F79B8C0077CF0D /* CoreDataTableViewController.h */,
+				68C398CC16F79B8C0077CF0D /* CoreDataTableViewController.m */,
+				68C398D016F79FB40077CF0D /* PatientsViewController.h */,
+				68C398D116F79FB40077CF0D /* PatientsViewController.m */,
+				68CD1D82170E462500B188A7 /* EmbedPatientsViewController.h */,
+				68CD1D83170E462600B188A7 /* EmbedPatientsViewController.m */,
+				68E4F5AC16F987FD00A12BCD /* ClinicsViewController.h */,
+				68E4F5AD16F987FD00A12BCD /* ClinicsViewController.m */,
+				68CD1D7F170E28CC00B188A7 /* HardcodedExamsViewController.h */,
+				68CD1D80170E28CC00B188A7 /* HardcodedExamsViewController.m */,
+				6863B56216FBBBF700DF6BF8 /* DoctorViewController.h */,
+				6863B56316FBBBF700DF6BF8 /* DoctorViewController.m */,
+				6863B55F16FBBB7E00DF6BF8 /* EmbedDoctorViewController.h */,
+				6863B56016FBBB7E00DF6BF8 /* EmbedDoctorViewController.m */,
+				6876645F16FE43E800EDF2F7 /* EmbedInsuranceViewController.h */,
+				6876646016FE43E800EDF2F7 /* EmbedInsuranceViewController.m */,
+				6876644A16FCD5B900EDF2F7 /* InsuranceViewController.h */,
+				6876644B16FCD5B900EDF2F7 /* InsuranceViewController.m */,
+				68891B3F16FFFEF600FF1930 /* ExamsViewController.h */,
+				68891B4016FFFEF600FF1930 /* ExamsViewController.m */,
+				683003051720B71F00B73202 /* ReportModalTableViewController.h */,
+				683003061720B71F00B73202 /* ReportModalTableViewController.m */,
+			);
+			name = "Table View Controllers";
+			sourceTree = "<group>";
+		};
+		68E4F5AB16F983DB00A12BCD /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				68C398D316F7A0860077CF0D /* ChiroMaticModel.xcdatamodeld */,
+				68BB1E951721D0C700666EDD /* Report.h */,
+				68BB1E961721D0C700666EDD /* Report.m */,
+				6815B1C3170668D6008BD560 /* Doctor.h */,
+				6815B1C4170668D6008BD560 /* Doctor.m */,
+				6815B1C0170668D6008BD560 /* Patient.h */,
+				6815B1C1170668D6008BD560 /* Patient.m */,
+				6815B1BD170668D6008BD560 /* Exam.h */,
+				6815B1BE170668D6008BD560 /* Exam.m */,
+				68CD1D77170E009B00B188A7 /* Exam+ValueColumns.h */,
+				68CD1D78170E009B00B188A7 /* Exam+ValueColumns.m */,
+				6815B1BA170668D6008BD560 /* Clinic.h */,
+				6815B1BB170668D6008BD560 /* Clinic.m */,
+				6815B1B7170668D6008BD560 /* Insurance.h */,
+				6815B1B8170668D6008BD560 /* Insurance.m */,
+			);
+			name = "Managed Objects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68C398A416F79B500077CF0D /* Make it Brief */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C398C816F79B500077CF0D /* Build configuration list for PBXNativeTarget "Make it Brief" */;
+			buildPhases = (
+				68C398A116F79B500077CF0D /* Sources */,
+				68C398A216F79B500077CF0D /* Frameworks */,
+				68C398A316F79B500077CF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Make it Brief";
+			productName = ChiroMatic;
+			productReference = 68C398A516F79B500077CF0D /* Make it Brief.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C3989D16F79B500077CF0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ChiroMatic;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Anthony Dreessen";
+			};
+			buildConfigurationList = 68C398A016F79B500077CF0D /* Build configuration list for PBXProject "Make it Brief" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68C3989C16F79B500077CF0D;
+			productRefGroup = 68C398A616F79B500077CF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68C398A416F79B500077CF0D /* Make it Brief */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68C398A316F79B500077CF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C398D616F7A0BC0077CF0D /* ChiroMaticModel.xcdatamodeld in Resources */,
+				68C398B316F79B500077CF0D /* InfoPlist.strings in Resources */,
+				68C398BB16F79B500077CF0D /* Default.png in Resources */,
+				68C398BD16F79B500077CF0D /* Default@2x.png in Resources */,
+				68C398BF16F79B500077CF0D /* Default-568h@2x.png in Resources */,
+				68C398C216F79B500077CF0D /* MainStoryboard.storyboard in Resources */,
+				833D8B9F171A2B310096373F /* README.md in Resources */,
+				68BB1EB4172201E800666EDD /* PLCameraSheetButton.png in Resources */,
+				68BB1EB5172201E800666EDD /* PLCameraSheetButton@2x.png in Resources */,
+				68BB1EB6172201E800666EDD /* PLCameraSheetButtonPressed.png in Resources */,
+				68BB1EB7172201E800666EDD /* PLCameraSheetButtonPressed@2x.png in Resources */,
+				68BB1EB8172201E800666EDD /* PLCameraSheetDoneButton.png in Resources */,
+				68BB1EB9172201E800666EDD /* PLCameraSheetDoneButton@2x.png in Resources */,
+				68BB1EBA172201E800666EDD /* PLCameraSheetDoneButtonPressed.png in Resources */,
+				68BB1EBB172201E800666EDD /* PLCameraSheetDoneButtonPressed@2x.png in Resources */,
+				684A36411726557F00C1A946 /* MakeItBriefSplashLogo.png in Resources */,
+				684A36431726563A00C1A946 /* Blue Button.png in Resources */,
+				684A3645172658CF00C1A946 /* make it brief transparent.png in Resources */,
+				684A364717265B9000C1A946 /* mib transparent144x.png in Resources */,
+				684A36491726FCE000C1A946 /* mib transparentx.png in Resources */,
+				684A364B17271F4A00C1A946 /* ExamProperties.plist in Resources */,
+				68850A42172795610064B0BD /* Default-Landscape~ipad.png in Resources */,
+				68850A45172795DB0064B0BD /* Default-Landscape@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68C398A116F79B500077CF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C398B516F79B500077CF0D /* main.m in Sources */,
+				68C398B916F79B500077CF0D /* ChiroMaticAppDelegate.m in Sources */,
+				68C398C516F79B500077CF0D /* ChiroMaticViewController.m in Sources */,
+				68C398CD16F79B8C0077CF0D /* CoreDataTableViewController.m in Sources */,
+				68C398D216F79FB40077CF0D /* PatientsViewController.m in Sources */,
+				68C398D516F7A0860077CF0D /* ChiroMaticModel.xcdatamodeld in Sources */,
+				68E4F56A16F7C43F00A12BCD /* PatientsEditViewController.m in Sources */,
+				68E4F5AE16F987FD00A12BCD /* ClinicsViewController.m in Sources */,
+				68E4F5B116F98E9000A12BCD /* EditViewController.m in Sources */,
+				68BF8D5216FA696E002DF7D0 /* PrintViewController.m in Sources */,
+				6863B56116FBBB7E00DF6BF8 /* EmbedDoctorViewController.m in Sources */,
+				6863B56416FBBBF800DF6BF8 /* DoctorViewController.m in Sources */,
+				6863B56716FBBD9D00DF6BF8 /* ClinicsDoctorsEditViewController.m in Sources */,
+				6876644C16FCD5B900EDF2F7 /* InsuranceViewController.m in Sources */,
+				6876645B16FCE6C300EDF2F7 /* InsuranceEditViewController.m in Sources */,
+				6876646116FE43E800EDF2F7 /* EmbedInsuranceViewController.m in Sources */,
+				68891B4116FFFEF600FF1930 /* ExamsViewController.m in Sources */,
+				68891B47170001FB00FF1930 /* ReportBuilderMasterViewController.m in Sources */,
+				68891B4A1700101800FF1930 /* ReportBuilderViewController.m in Sources */,
+				68654E3B1700DE2700AC119F /* ReportPageRenderer.m in Sources */,
+				68654E4317035CA200AC119F /* ChiroMaticSplashViewController.m in Sources */,
+				682A3A2117064DA1002800F7 /* PrintContentViewController.m in Sources */,
+				6815B1B9170668D6008BD560 /* Insurance.m in Sources */,
+				6815B1BC170668D6008BD560 /* Clinic.m in Sources */,
+				6815B1BF170668D6008BD560 /* Exam.m in Sources */,
+				6815B1C2170668D6008BD560 /* Patient.m in Sources */,
+				6815B1C5170668D6008BD560 /* Doctor.m in Sources */,
+				6815B1C8170682A2008BD560 /* TotalStringToDateFormatter.m in Sources */,
+				68CD1D79170E009B00B188A7 /* Exam+ValueColumns.m in Sources */,
+				68CD1D7C170E199900B188A7 /* ExamsEditViewController.m in Sources */,
+				68CD1D81170E28CC00B188A7 /* HardcodedExamsViewController.m in Sources */,
+				68CD1D84170E462600B188A7 /* EmbedPatientsViewController.m in Sources */,
+				6830030117207A8400B73202 /* SettingsImagesEditViewController.m in Sources */,
+				6830030417207ABD00B73202 /* SettingsImagesViewController.m in Sources */,
+				683003071720B72000B73202 /* ReportModalTableViewController.m in Sources */,
+				68BB1E971721D0C700666EDD /* Report.m in Sources */,
+				68BB1EA5172201DC00666EDD /* GKCropBorderView.m in Sources */,
+				68BB1EA6172201DC00666EDD /* GKImageCropOverlayView.m in Sources */,
+				68BB1EA7172201DC00666EDD /* GKImageCropView.m in Sources */,
+				68BB1EA8172201DC00666EDD /* GKImageCropViewController.m in Sources */,
+				68BB1EA9172201DC00666EDD /* GKImagePicker.m in Sources */,
+				68BB1EAA172201DC00666EDD /* GKResizeableCropOverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68C398B116F79B500077CF0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C398B216F79B500077CF0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68C398C016F79B500077CF0D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C398C116F79B500077CF0D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68C398C616F79B500077CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		68C398C716F79B500077CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68C398C916F79B500077CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChiroMatic/Make it Brief-Prefix.pch";
+				INFOPLIST_FILE = "ChiroMatic/Make it Brief-Info.plist";
+				PRODUCT_NAME = "Make it Brief";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68C398CA16F79B500077CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChiroMatic/Make it Brief-Prefix.pch";
+				INFOPLIST_FILE = "ChiroMatic/Make it Brief-Info.plist";
+				PRODUCT_NAME = "Make it Brief";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68C398A016F79B500077CF0D /* Build configuration list for PBXProject "Make it Brief" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C398C616F79B500077CF0D /* Debug */,
+				68C398C716F79B500077CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C398C816F79B500077CF0D /* Build configuration list for PBXNativeTarget "Make it Brief" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C398C916F79B500077CF0D /* Debug */,
+				68C398CA16F79B500077CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68C398D316F7A0860077CF0D /* ChiroMaticModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68C398D416F7A0860077CF0D /* ChiroMaticModel.xcdatamodel */,
+			);
+			currentVersion = 68C398D416F7A0860077CF0D /* ChiroMaticModel.xcdatamodel */;
+			path = ChiroMaticModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68C3989D16F79B500077CF0D /* Project object */;
+}

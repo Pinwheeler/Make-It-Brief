@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>examNames</key>
+	<array>
+		<string>Extension</string>
+		<string>Flexion</string>
+		<string>Right Lateral Flexion</string>
+		<string>Left Lateral Flexion</string>
+		<string>Right Rotation</string>
+		<string>Left Rotation</string>
+		<string>Reflexes</string>
+		<string>Dermatomes</string>
+		<string>Muscle Test</string>
+		<string>Low Back Tests</string>
+		<string>Lumbar Muscle Tests</string>
+		<string>Shoulder Regional</string>
+	</array>
+	<key>Flexion</key>
+	<dict>
+		<key>name</key>
+		<string>Flexion</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient had </string>
+				<key>suffix</key>
+				<string></string>
+				<key>possibleValues</key>
+				<array>
+					<string>0</string>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> flexion </string>
+				<key>possibleValues</key>
+				<array>
+					<string>0°</string>
+					<string>1°</string>
+					<string>2°</string>
+					<string>3°</string>
+					<string>4°</string>
+					<string>5°</string>
+					<string>6°</string>
+					<string>7°</string>
+					<string>8°</string>
+					<string>9°</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>with</string>
+					<string>without</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>pain</string>
+					<string>tenderness</string>
+				</array>
+				<key>width</key>
+				<integer>125</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Extension</key>
+	<dict>
+		<key>name</key>
+		<string>Extension</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient had </string>
+				<key>suffix</key>
+				<string></string>
+				<key>possibleValues</key>
+				<array>
+					<string>0</string>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> extension </string>
+				<key>possibleValues</key>
+				<array>
+					<string>0°</string>
+					<string>1°</string>
+					<string>2°</string>
+					<string>3°</string>
+					<string>4°</string>
+					<string>5°</string>
+					<string>6°</string>
+					<string>7°</string>
+					<string>8°</string>
+					<string>9°</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>with</string>
+					<string>without</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>pain</string>
+					<string>tenderness</string>
+				</array>
+				<key>width</key>
+				<integer>125</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Right Lateral Flexion</key>
+	<dict>
+		<key>name</key>
+		<string>Right Lateral Flexion</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient had </string>
+				<key>suffix</key>
+				<string></string>
+				<key>possibleValues</key>
+				<array>
+					<string>0</string>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> flexion </string>
+				<key>possibleValues</key>
+				<array>
+					<string>0°</string>
+					<string>1°</string>
+					<string>2°</string>
+					<string>3°</string>
+					<string>4°</string>
+					<string>5°</string>
+					<string>6°</string>
+					<string>7°</string>
+					<string>8°</string>
+					<string>9°</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>with</string>
+					<string>without</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>pain</string>
+					<string>tenderness</string>
+				</array>
+				<key>width</key>
+				<integer>125</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Left Lateral Flexion</key>
+	<dict>
+		<key>name</key>
+		<string>Left Lateral Flexion</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient had </string>
+				<key>suffix</key>
+				<string></string>
+				<key>possibleValues</key>
+				<array>
+					<string>0</string>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> flexion </string>
+				<key>possibleValues</key>
+				<array>
+					<string>0°</string>
+					<string>1°</string>
+					<string>2°</string>
+					<string>3°</string>
+					<string>4°</string>
+					<string>5°</string>
+					<string>6°</string>
+					<string>7°</string>
+					<string>8°</string>
+					<string>9°</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>with</string>
+					<string>without</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>pain</string>
+					<string>tenderness</string>
+				</array>
+				<key>width</key>
+				<integer>125</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Right Rotation</key>
+	<dict>
+		<key>name</key>
+		<string>Right Rotation</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient had </string>
+				<key>suffix</key>
+				<string></string>
+				<key>possibleValues</key>
+				<array>
+					<string>0</string>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> range of motion </string>
+				<key>possibleValues</key>
+				<array>
+					<string>0°</string>
+					<string>1°</string>
+					<string>2°</string>
+					<string>3°</string>
+					<string>4°</string>
+					<string>5°</string>
+					<string>6°</string>
+					<string>7°</string>
+					<string>8°</string>
+					<string>9°</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>with</string>
+					<string>without</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>pain</string>
+					<string>tenderness</string>
+				</array>
+				<key>width</key>
+				<integer>125</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> rotation.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Left Rotation</key>
+	<dict>
+		<key>name</key>
+		<string>Left Rotation</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient had </string>
+				<key>suffix</key>
+				<string></string>
+				<key>possibleValues</key>
+				<array>
+					<string>0</string>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> range of motion </string>
+				<key>possibleValues</key>
+				<array>
+					<string>0°</string>
+					<string>1°</string>
+					<string>2°</string>
+					<string>3°</string>
+					<string>4°</string>
+					<string>5°</string>
+					<string>6°</string>
+					<string>7°</string>
+					<string>8°</string>
+					<string>9°</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>with</string>
+					<string>without</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string></string>
+				<key>suffix</key>
+				<string> </string>
+				<key>possibleValues</key>
+				<array>
+					<string>pain</string>
+					<string>tenderness</string>
+				</array>
+				<key>width</key>
+				<integer>125</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> rotation.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Reflexes</key>
+	<dict>
+		<key>name</key>
+		<string>Reflexes</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient displayed a </string>
+				<key>suffix</key>
+				<string> reflex</string>
+				<key>possibleValues</key>
+				<array>
+					<string>-2</string>
+					<string>-1</string>
+					<string>0</string>
+					<string>+1</string>
+					<string>+2</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> for the </string>
+				<key>suffix</key>
+				<string> nerve test</string>
+				<key>possibleValues</key>
+				<array>
+					<string>Biceps</string>
+					<string>Brachio</string>
+					<string>Triceps</string>
+					<string>Patellar</string>
+					<string>Achillies</string>
+					<string>Babinski</string>
+				</array>
+				<key>width</key>
+				<integer>120</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Dermatomes</key>
+	<dict>
+		<key>name</key>
+		<string>Dermatomes</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient displayed a </string>
+				<key>suffix</key>
+				<string> dermatome</string>
+				<key>possibleValues</key>
+				<array>
+					<string>-2</string>
+					<string>-1</string>
+					<string>0</string>
+					<string>+1</string>
+					<string>+2</string>
+				</array>
+				<key>width</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> for the </string>
+				<key>suffix</key>
+				<string> dermatome</string>
+				<key>possibleValues</key>
+				<array>
+					<string>C5</string>
+					<string>C6</string>
+					<string>C7</string>
+					<string>C8</string>
+					<string>T1</string>
+					<string>L1</string>
+					<string>L2</string>
+					<string>L3</string>
+					<string>L4</string>
+					<string>L5</string>
+					<string>S1</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Muscle Test</key>
+	<dict>
+		<key>name</key>
+		<string>Muscle Test</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient displayed a </string>
+				<key>suffix</key>
+				<string> muscle test</string>
+				<key>possibleValues</key>
+				<array>
+					<string>5 (strong resistence)</string>
+					<string>4 (against gravity)</string>
+					<string>3 (unable to resist gravity)</string>
+					<string>2</string>
+					<string>1</string>
+					<string>0</string>
+				</array>
+				<key>width</key>
+				<integer>320</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> for the </string>
+				<key>suffix</key>
+				<string> muscle test</string>
+				<key>possibleValues</key>
+				<array>
+					<string>C5</string>
+					<string>C6</string>
+					<string>C7</string>
+					<string>C8</string>
+					<string>T1</string>
+				</array>
+				<key>width</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+					<string></string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Low Back Tests</key>
+	<dict>
+		<key>name</key>
+		<string>Low Back Tests</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient displayed a </string>
+				<key>suffix</key>
+				<string> result</string>
+				<key>possibleValues</key>
+				<array>
+					<string>positive</string>
+					<string>negative</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>for the </string>
+				<key>suffix</key>
+				<string> muscle test</string>
+				<key>possibleValues</key>
+				<array>
+					<string>Valsalva</string>
+					<string>Bechterew</string>
+					<string>L-D Rotation</string>
+					<string>Antalgia</string>
+					<string>Flexion</string>
+					<string>Extention</string>
+					<string>R Lateral Flexion</string>
+					<string>L Lateral Flextion</string>
+					<string>Kemps</string>
+					<string>Adams</string>
+					<string>Belt</string>
+					<string>Lewin</string>
+					<string>Romberg</string>
+					<string>SLR</string>
+					<string>Braggards</string>
+					<string>Thomas</string>
+					<string>Fabre</string>
+					<string>Bowstring</string>
+					<string>Milgrams</string>
+					<string>S-I Stretch</string>
+					<string>Goldthwaits</string>
+				</array>
+				<key>width</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string>on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Lumbar Muscle Tests</key>
+	<dict>
+		<key>name</key>
+		<string>Lumbar Muscle Tests</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient displayed a </string>
+				<key>suffix</key>
+				<string> result</string>
+				<key>possibleValues</key>
+				<array>
+					<string>positive</string>
+					<string>negative</string>
+					<string>weak with pressure</string>
+					<string>weak with gravity</string>
+					<string>flaccid weakness</string>
+					<string>spastic weaknes</string>
+				</array>
+				<key>width</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> for the </string>
+				<key>suffix</key>
+				<string> muscle test</string>
+				<key>possibleValues</key>
+				<array>
+					<string>L1-L3</string>
+					<string>L4</string>
+					<string>L5</string>
+					<string>S1</string>
+					<string>Lindners</string>
+					<string>Soto Hall</string>
+					<string>Nachlas</string>
+					<string>Elys</string>
+					<string>Hibbs</string>
+					<string>Skin Rolling</string>
+					<string>Spinal Percussion</string>
+				</array>
+				<key>width</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Shoulder Regional</key>
+	<dict>
+		<key>name</key>
+		<string>Shoulder Regional</string>
+		<key>categories</key>
+		<array>
+			<dict>
+				<key>prefix</key>
+				<string>Patient displayed a </string>
+				<key>suffix</key>
+				<string> result</string>
+				<key>possibleValues</key>
+				<array>
+					<string>positive (with pain)</string>
+					<string>negative</string>
+					<string>weak with pressure</string>
+					<string>weak with gravity</string>
+					<string>flaccid weakness</string>
+					<string>spastic weaknes</string>
+				</array>
+				<key>width</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> for the </string>
+				<key>suffix</key>
+				<string> test</string>
+				<key>possibleValues</key>
+				<array>
+					<string>Apley Scratch</string>
+					<string>Shoulder Impingement</string>
+					<string>Shoulder Apprehension</string>
+					<string>Shoulder Scarf</string>
+					<string>Internal rotation</string>
+					<string>External rotation</string>
+				</array>
+				<key>width</key>
+				<integer>300</integer>
+			</dict>
+			<dict>
+				<key>prefix</key>
+				<string> on the </string>
+				<key>suffix</key>
+				<string> side.</string>
+				<key>possibleValues</key>
+				<array>
+					<string>right</string>
+					<string>left</string>
+				</array>
+				<key>width</key>
+				<integer>100</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
