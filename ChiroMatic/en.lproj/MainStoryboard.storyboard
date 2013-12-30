@@ -217,9 +217,24 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" showsHorizontalScrollIndicator="NO" editable="NO" id="gXY-Zj-f7e">
+                            <rect key="frame" x="0.0" y="64" width="320" height="103"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <mutableString key="text">--This box is scrollable--
+
+Here you can add/edit patients, confirm their insurance and give them a primary doctor.
+
+1) Either select a patient name to select a currently-existing clinic or click the plus button at the bottom of the list to create a new patient
+
+2) You can now assign the patient an insurance company. Keep in mind that every time you re-assign an insurance company, the patient's primary doctor will change, this is to ensure that only properly licensed doctors can digitally sign the report.
+
+3) Finally, select a primary doctor for the patient. The final report will be digitally signed by the doctor selected. You can easily change doctors for a patient, but only if that doctor is registered with the patient's insurance company.</mutableString>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Patient Cell" textLabel="6s3-X7-aHp" detailTextLabel="BMF-eu-wUa" style="IBUITableViewCellStyleSubtitle" id="AwT-nR-OlA">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="189" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AwT-nR-OlA" id="tNV-bm-KrB">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
