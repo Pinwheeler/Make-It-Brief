@@ -1078,18 +1078,12 @@ This is where you can quick-create findings from the MiB quick-finding database.
                                     <segue destination="PzN-Ac-VE6" kind="embed" identifier="Embed Patients Table View Controller" id="bpw-PH-kdF"/>
                                 </connections>
                             </containerView>
-                            <pickerView contentMode="scaleToFill" id="zEc-rC-42d">
-                                <rect key="frame" x="0.0" y="0.0" width="703" height="216"/>
+                            <pickerView alpha="0.64999999999999969" contentMode="scaleToFill" id="zEc-rC-42d">
+                                <rect key="frame" x="0.0" y="20" width="703" height="216"/>
+                                <color key="tintColor" red="0.87699558420000001" green="0.42967014250000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="aw8-SC-B4U" id="hyX-wj-cY2"/>
                                     <outlet property="delegate" destination="aw8-SC-B4U" id="GXx-1a-GnH"/>
-                                </connections>
-                            </pickerView>
-                            <pickerView hidden="YES" contentMode="scaleToFill" id="PTY-fH-LP5">
-                                <rect key="frame" x="0.0" y="234" width="703" height="216"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="aw8-SC-B4U" id="fjX-ip-b7J"/>
-                                    <outlet property="delegate" destination="aw8-SC-B4U" id="QwI-vb-eWi"/>
                                 </connections>
                             </pickerView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Preview Sentence" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nuQ-BX-MJr">
@@ -1104,7 +1098,6 @@ This is where you can quick-create findings from the MiB quick-finding database.
                     </view>
                     <navigationItem key="navigationItem" id="4mq-Xd-aJd"/>
                     <connections>
-                        <outlet property="bottomPicker" destination="PTY-fH-LP5" id="igy-Gb-qOD"/>
                         <outlet property="previewSentenceLabel" destination="nuQ-BX-MJr" id="WaV-uP-87T"/>
                         <outlet property="topPicker" destination="zEc-rC-42d" id="8rg-hM-VyF"/>
                     </connections>
