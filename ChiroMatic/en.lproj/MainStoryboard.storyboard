@@ -229,6 +229,7 @@ Here you can add/edit patients, confirm their insurance and give them a primary 
 2) You can now assign the patient an insurance company. Keep in mind that every time you re-assign an insurance company, the patient's primary doctor will change, this is to ensure that only properly licensed doctors can digitally sign the report.
 
 3) Finally, select a primary doctor for the patient. The final report will be digitally signed by the doctor selected. You can easily change doctors for a patient, but only if that doctor is registered with the patient's insurance company.</mutableString>
+                            <color key="textColor" red="0.87699558420000001" green="0.42967014250000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
@@ -497,6 +498,7 @@ Here you can add/edit clinic and doctor information. This information will be us
 4) An Image selector should pop up allowing you to navigate and select any photo from your iOS device. The image selector can be resized to only capture a portion of the image. The image will not be resized.
 
 5) Finally, time to add doctors to your clinic. If you would like to add an already-created doctor to the clinic, simply tap the doctor's name. You can tell which clinic is currently selected because that clinic's name and address information will be on the top of the screen.</mutableString>
+                            <color key="textColor" red="0.87699558420000001" green="0.42967014250000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
@@ -764,6 +766,7 @@ Here you can add/edit Insurance information. This information will be used on th
 3) With the insurance selected you can select doctors that are licensed for this insurance company. Simply tap the doctor's name to add the insurance to the doctor's file. The doctor's name will get a checkmark showing this has been done.
 
 4) If you made a mistake, simply tap the doctor again to uncheck it and disallow that doctor from using that insurance.</mutableString>
+                            <color key="textColor" red="0.87699558420000001" green="0.42967014250000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
@@ -998,6 +1001,7 @@ This is where you can quick-create findings from the MiB quick-finding database.
 4) Select the patient to to whose file you would like to add the finding. You should see a checkmark next to the patient's name to signify that the patient's file was updated successfully. 
 
 5) That's it! When you go to the Report Builder, your finding along with its result will be saved to the patient's file. If you would like to remove a finding from the patient's file, you can do so from this screen.</mutableString>
+                            <color key="textColor" red="0.87699558420000001" green="0.42967014250000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
