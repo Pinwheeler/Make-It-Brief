@@ -10,26 +10,18 @@
             <objects>
                 <viewController id="Mj6-cF-OYG" customClass="ChiroMaticSplashViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="349-gv-xA6"/>
-                        <viewControllerLayoutGuide type="bottom" id="zsb-l8-ri0"/>
+                        <viewControllerLayoutGuide type="top" id="Ezv-ZC-aVG"/>
+                        <viewControllerLayoutGuide type="bottom" id="afO-kH-Pib"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8KN-26-Bda">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="MakeItBriefSplashLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-xf-Ico">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="MakeItBriefSplashLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-xf-Ico">
                                 <rect key="frame" x="198" y="220" width="307" height="307"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="307" id="N4n-IW-ze9"/>
-                                    <constraint firstAttribute="width" constant="307" id="P2N-nY-ivB"/>
-                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.31746773097826086" green="0.31746773097826086" blue="0.31746773097826086" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="W0G-xf-Ico" firstAttribute="top" secondItem="8KN-26-Bda" secondAttribute="top" constant="220" id="9Ye-Tj-5Yc"/>
-                            <constraint firstItem="W0G-xf-Ico" firstAttribute="centerX" secondItem="8KN-26-Bda" secondAttribute="centerX" id="tkJ-WX-fFD"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <toolbarItems/>
@@ -75,18 +67,15 @@
             <objects>
                 <viewController id="1zT-VY-Y20" customClass="ChiroMaticViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tNr-P7-AvV"/>
-                        <viewControllerLayoutGuide type="bottom" id="aEw-l1-Jpf"/>
+                        <viewControllerLayoutGuide type="top" id="5pT-wP-JUO"/>
+                        <viewControllerLayoutGuide type="bottom" id="udU-ak-fqf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rzd-A2-igd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bS-FU-LUl">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bS-FU-LUl">
                                 <rect key="frame" x="20" y="264" width="280" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="Nlr-ZV-3Lf"/>
-                                </constraints>
                                 <state key="normal" title="Patients" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -95,11 +84,8 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="1sY-0I-x5e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6F-7z-qX7">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6F-7z-qX7">
                                 <rect key="frame" x="20" y="79" width="280" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="QlC-WX-qq6"/>
-                                </constraints>
                                 <state key="normal" title="Clinics/Doctors" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -108,11 +94,8 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="Xn2-WR-eNX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFA-bp-FnR">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFA-bp-FnR">
                                 <rect key="frame" x="20" y="171" width="280" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="0qK-Vo-W9p"/>
-                                </constraints>
                                 <state key="normal" title="Insurance/Providers" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,11 +104,8 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="Ikx-U6-fqB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-JY-xwf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-JY-xwf">
                                 <rect key="frame" x="20" y="357" width="280" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="Fi6-m4-6rQ"/>
-                                </constraints>
                                 <state key="normal" title="Exams" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -134,11 +114,8 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="H75-mW-CE6"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-7l-IUP">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-7l-IUP">
                                 <rect key="frame" x="20" y="451" width="280" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="v28-b5-SXg"/>
-                                </constraints>
                                 <state key="normal" title="Settings/Images" backgroundImage="Blue Button.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -147,11 +124,8 @@
                                     <action selector="segueButtonPressed:" destination="1zT-VY-Y20" eventType="touchUpInside" id="cV4-eg-yVb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVL-yN-5x9">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVL-yN-5x9">
                                 <rect key="frame" x="20" y="633" width="280" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="wXr-PV-8Zj"/>
-                                </constraints>
                                 <state key="normal" title="Report Builder" backgroundImage="Blue Button.png">
                                     <color key="titleColor" red="1" green="0.87450987100601196" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -162,26 +136,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.31746773099999998" green="0.31746773099999998" blue="0.31746773099999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="NVL-yN-5x9" firstAttribute="leading" secondItem="rzd-A2-igd" secondAttribute="leading" constant="20" symbolic="YES" id="3uD-Lt-etI"/>
-                            <constraint firstAttribute="trailing" secondItem="XxS-JY-xwf" secondAttribute="trailing" constant="20" symbolic="YES" id="5Y3-t8-rQ3"/>
-                            <constraint firstItem="jEl-7l-IUP" firstAttribute="leading" secondItem="rzd-A2-igd" secondAttribute="leading" constant="20" symbolic="YES" id="71l-Gj-Pfh"/>
-                            <constraint firstItem="jEl-7l-IUP" firstAttribute="top" secondItem="XxS-JY-xwf" secondAttribute="bottom" constant="8" symbolic="YES" id="CKq-td-DDW"/>
-                            <constraint firstItem="GFA-bp-FnR" firstAttribute="leading" secondItem="rzd-A2-igd" secondAttribute="leading" constant="20" symbolic="YES" id="M2U-BH-KVz"/>
-                            <constraint firstAttribute="bottom" secondItem="NVL-yN-5x9" secondAttribute="bottom" constant="49" id="OKP-7K-aQc"/>
-                            <constraint firstAttribute="trailing" secondItem="NVL-yN-5x9" secondAttribute="trailing" constant="20" symbolic="YES" id="Opn-sf-wAq"/>
-                            <constraint firstItem="v6F-7z-qX7" firstAttribute="leading" secondItem="rzd-A2-igd" secondAttribute="leading" constant="20" symbolic="YES" id="TSE-V5-x4e"/>
-                            <constraint firstItem="1bS-FU-LUl" firstAttribute="top" secondItem="rzd-A2-igd" secondAttribute="top" constant="264" id="WfR-2c-YQa"/>
-                            <constraint firstItem="XxS-JY-xwf" firstAttribute="leading" secondItem="rzd-A2-igd" secondAttribute="leading" constant="20" symbolic="YES" id="XNC-FQ-i6h"/>
-                            <constraint firstItem="1bS-FU-LUl" firstAttribute="leading" secondItem="rzd-A2-igd" secondAttribute="leading" constant="20" symbolic="YES" id="a6d-pQ-0G7"/>
-                            <constraint firstItem="XxS-JY-xwf" firstAttribute="top" secondItem="rzd-A2-igd" secondAttribute="top" constant="357" id="aSF-3x-6nr"/>
-                            <constraint firstItem="v6F-7z-qX7" firstAttribute="top" secondItem="rzd-A2-igd" secondAttribute="top" constant="79" id="bA8-Bv-eBs"/>
-                            <constraint firstItem="GFA-bp-FnR" firstAttribute="top" secondItem="rzd-A2-igd" secondAttribute="top" constant="171" id="eAm-ks-pfO"/>
-                            <constraint firstAttribute="trailing" secondItem="jEl-7l-IUP" secondAttribute="trailing" constant="20" symbolic="YES" id="h4b-jf-Qhc"/>
-                            <constraint firstAttribute="trailing" secondItem="1bS-FU-LUl" secondAttribute="trailing" constant="20" symbolic="YES" id="meJ-qj-Wbj"/>
-                            <constraint firstAttribute="trailing" secondItem="v6F-7z-qX7" secondAttribute="trailing" constant="20" symbolic="YES" id="ocX-vw-6bH"/>
-                            <constraint firstAttribute="trailing" secondItem="GFA-bp-FnR" secondAttribute="trailing" constant="20" symbolic="YES" id="xEb-Yb-0gt"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="35D-hG-uOM"/>
@@ -205,28 +159,22 @@
             <objects>
                 <viewController id="5x9-ry-qOR" customClass="ReportBuilderMasterViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="U5v-Av-iZK"/>
-                        <viewControllerLayoutGuide type="bottom" id="DYN-re-JxM"/>
+                        <viewControllerLayoutGuide type="top" id="kMa-8x-UnE"/>
+                        <viewControllerLayoutGuide type="bottom" id="eE7-t9-Oyf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QMT-Aj-JNZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" text="1. Report Builder Data Entry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa1-OW-7pb">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" fixedFrame="YES" text="1. Report Builder Data Entry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa1-OW-7pb">
                                 <rect key="frame" x="20" y="20" width="280" height="38"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="GCu-dC-OfW"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hH-tX-Q3Y">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hH-tX-Q3Y">
                                 <rect key="frame" x="40" y="66" width="240" height="416"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="Vcp-Fq-q6Z"/>
-                                </constraints>
                                 <string key="text">--This box is scrollable--
 
 1) Enter header data. You will want to enter in the exam date and exam name. The default exam name is "exam" the default exam date is today.
@@ -241,21 +189,15 @@ All fields in the Action and Prognosis section will remember the last 5 entries 
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" text="2. Generated Report" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cN-3O-yLQ">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" fixedFrame="YES" text="2. Generated Report" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cN-3O-yLQ">
                                 <rect key="frame" x="20" y="490" width="280" height="38"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="iC0-tB-VLX"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-2M-qoF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-2M-qoF">
                                 <rect key="frame" x="40" y="536" width="240" height="212"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="212" id="1IZ-EP-EnM"/>
-                                </constraints>
                                 <string key="text">The generated report is scrollable and will show you exactly what the report will look like. You may save the report as a PNG file, email a PNG version of the report to any email address, or print the report directly through any AirPrint printer.
 
 The PNG file will be stored in the "photos" section of your iPad memory.</string>
@@ -264,20 +206,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.31746773099999998" green="0.31746773099999998" blue="0.31746773099999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="8cN-3O-yLQ" firstAttribute="top" secondItem="9hH-tX-Q3Y" secondAttribute="bottom" constant="8" symbolic="YES" id="2wn-Iz-1HE"/>
-                            <constraint firstItem="7Hh-2M-qoF" firstAttribute="top" secondItem="8cN-3O-yLQ" secondAttribute="bottom" constant="8" symbolic="YES" id="7ae-FZ-HxA"/>
-                            <constraint firstItem="aa1-OW-7pb" firstAttribute="top" secondItem="QMT-Aj-JNZ" secondAttribute="top" constant="20" symbolic="YES" id="7dA-ME-e44"/>
-                            <constraint firstItem="8cN-3O-yLQ" firstAttribute="centerX" secondItem="7Hh-2M-qoF" secondAttribute="centerX" id="9Le-sL-iif"/>
-                            <constraint firstItem="8cN-3O-yLQ" firstAttribute="leading" secondItem="QMT-Aj-JNZ" secondAttribute="leading" constant="20" symbolic="YES" id="Pzk-wj-NX4"/>
-                            <constraint firstAttribute="trailing" secondItem="8cN-3O-yLQ" secondAttribute="trailing" constant="20" symbolic="YES" id="Ruz-9M-KHj"/>
-                            <constraint firstItem="7Hh-2M-qoF" firstAttribute="leading" secondItem="9hH-tX-Q3Y" secondAttribute="leading" id="bz1-6Q-TfF"/>
-                            <constraint firstItem="7Hh-2M-qoF" firstAttribute="trailing" secondItem="9hH-tX-Q3Y" secondAttribute="trailing" id="eny-ad-ULF"/>
-                            <constraint firstItem="aa1-OW-7pb" firstAttribute="leading" secondItem="QMT-Aj-JNZ" secondAttribute="leading" constant="20" symbolic="YES" id="iAx-pc-QEB"/>
-                            <constraint firstAttribute="trailing" secondItem="aa1-OW-7pb" secondAttribute="trailing" constant="20" symbolic="YES" id="kGs-X7-phP"/>
-                            <constraint firstAttribute="bottom" secondItem="7Hh-2M-qoF" secondAttribute="bottom" constant="20" symbolic="YES" id="pcr-yP-WPY"/>
-                            <constraint firstItem="9hH-tX-Q3Y" firstAttribute="top" secondItem="aa1-OW-7pb" secondAttribute="bottom" constant="8" symbolic="YES" id="wgm-UK-gPW"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="rI4-yJ-U4X"/>
@@ -349,36 +277,30 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="U6N-Lu-asl" customClass="PatientsEditViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Uvd-sx-hiP"/>
-                        <viewControllerLayoutGuide type="bottom" id="Cs6-Zj-1Xi"/>
+                        <viewControllerLayoutGuide type="top" id="zeI-7v-Gsm"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bb2-Ag-xKS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0aA-Qh-wOc">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x6R-TI-djU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x6R-TI-djU">
                                 <rect key="frame" x="20" y="20" width="331" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="331" id="kPR-OT-jpi"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="0jd-qS-rQM"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="birthDate" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v0v-hH-3se">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="birthDate" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v0v-hH-3se">
                                 <rect key="frame" x="523" y="20" width="160" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="f6e-HR-WRd"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="HEp-v3-sdt"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="injuryDate" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MN1-q1-BXx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="injuryDate" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MN1-q1-BXx">
                                 <rect key="frame" x="523" y="58" width="160" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -386,7 +308,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="7qK-F8-gCV"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="fileNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WhL-Xx-Zac">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="fileNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WhL-Xx-Zac">
                                 <rect key="frame" x="20" y="58" width="331" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -394,14 +316,14 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="lg7-TZ-48D"/>
                                 </connections>
                             </textField>
-                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3pO-hf-oqP">
+                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3pO-hf-oqP">
                                 <rect key="frame" x="20" y="163" width="663" height="292"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="BYL-U3-2by" kind="embed" identifier="Embed Insurance Table View Controller" id="bD4-ah-j8h"/>
                                 </connections>
                             </containerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="policyNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9L-md-dcJ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="policyNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9L-md-dcJ">
                                 <rect key="frame" x="20" y="125" width="663" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
@@ -409,19 +331,19 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="U6N-Lu-asl" id="5aj-Az-hbN"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insurance:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2c-Ts-xlI">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Insurance:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2c-Ts-xlI">
                                 <rect key="frame" x="20" y="96" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Doctor:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhU-Np-oCt">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Doctor:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhU-Np-oCt">
                                 <rect key="frame" x="20" y="463" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ojd-Zh-MeZ">
+                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ojd-Zh-MeZ">
                                 <rect key="frame" x="20" y="492" width="663" height="256"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
@@ -430,33 +352,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.31746773099999998" green="0.31746773099999998" blue="0.31746773099999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="WhL-Xx-Zac" firstAttribute="top" secondItem="x6R-TI-djU" secondAttribute="bottom" constant="8" symbolic="YES" id="1Y4-pf-qhM"/>
-                            <constraint firstAttribute="trailing" secondItem="3pO-hf-oqP" secondAttribute="trailing" constant="20" symbolic="YES" id="4Fs-0d-qEK"/>
-                            <constraint firstItem="3pO-hf-oqP" firstAttribute="top" secondItem="O9L-md-dcJ" secondAttribute="bottom" constant="8" symbolic="YES" id="8vo-Nd-Wwm"/>
-                            <constraint firstItem="WhL-Xx-Zac" firstAttribute="leading" secondItem="0aA-Qh-wOc" secondAttribute="leading" constant="20" symbolic="YES" id="K0K-d0-VWe"/>
-                            <constraint firstItem="Ojd-Zh-MeZ" firstAttribute="top" secondItem="HhU-Np-oCt" secondAttribute="bottom" constant="8" symbolic="YES" id="KGg-Al-fda"/>
-                            <constraint firstAttribute="bottom" secondItem="Ojd-Zh-MeZ" secondAttribute="bottom" constant="20" symbolic="YES" id="O5w-1a-6vq"/>
-                            <constraint firstAttribute="trailing" secondItem="v0v-hH-3se" secondAttribute="trailing" constant="20" symbolic="YES" id="OyG-TD-915"/>
-                            <constraint firstAttribute="trailing" secondItem="Ojd-Zh-MeZ" secondAttribute="trailing" constant="20" symbolic="YES" id="ToA-e4-v6y"/>
-                            <constraint firstItem="O9L-md-dcJ" firstAttribute="top" secondItem="L2c-Ts-xlI" secondAttribute="bottom" constant="8" symbolic="YES" id="UeS-Lg-Hqe"/>
-                            <constraint firstItem="MN1-q1-BXx" firstAttribute="baseline" secondItem="WhL-Xx-Zac" secondAttribute="baseline" id="VcL-XR-juz"/>
-                            <constraint firstItem="HhU-Np-oCt" firstAttribute="leading" secondItem="0aA-Qh-wOc" secondAttribute="leading" constant="20" symbolic="YES" id="Z0l-nv-cfS"/>
-                            <constraint firstItem="L2c-Ts-xlI" firstAttribute="leading" secondItem="0aA-Qh-wOc" secondAttribute="leading" constant="20" symbolic="YES" id="abS-R2-mnL"/>
-                            <constraint firstItem="3pO-hf-oqP" firstAttribute="leading" secondItem="0aA-Qh-wOc" secondAttribute="leading" constant="20" symbolic="YES" id="bpM-bo-w61"/>
-                            <constraint firstItem="MN1-q1-BXx" firstAttribute="leading" secondItem="v0v-hH-3se" secondAttribute="leading" id="bqV-wT-xm7"/>
-                            <constraint firstAttribute="trailing" secondItem="O9L-md-dcJ" secondAttribute="trailing" constant="20" symbolic="YES" id="csO-ae-6LW"/>
-                            <constraint firstItem="x6R-TI-djU" firstAttribute="leading" secondItem="0aA-Qh-wOc" secondAttribute="leading" constant="20" symbolic="YES" id="esg-eL-qhX"/>
-                            <constraint firstItem="x6R-TI-djU" firstAttribute="top" secondItem="0aA-Qh-wOc" secondAttribute="top" constant="20" symbolic="YES" id="gea-gB-gRA"/>
-                            <constraint firstItem="Ojd-Zh-MeZ" firstAttribute="leading" secondItem="0aA-Qh-wOc" secondAttribute="leading" constant="20" symbolic="YES" id="hyB-h9-24a"/>
-                            <constraint firstAttribute="trailing" secondItem="MN1-q1-BXx" secondAttribute="trailing" constant="20" symbolic="YES" id="iQ0-dE-d01"/>
-                            <constraint firstItem="WhL-Xx-Zac" firstAttribute="trailing" secondItem="x6R-TI-djU" secondAttribute="trailing" id="mKJ-UA-E1t"/>
-                            <constraint firstItem="L2c-Ts-xlI" firstAttribute="top" secondItem="WhL-Xx-Zac" secondAttribute="bottom" constant="8" symbolic="YES" id="t20-Ys-RWe"/>
-                            <constraint firstItem="HhU-Np-oCt" firstAttribute="top" secondItem="3pO-hf-oqP" secondAttribute="bottom" constant="8" symbolic="YES" id="tPd-Me-frO"/>
-                            <constraint firstItem="O9L-md-dcJ" firstAttribute="leading" secondItem="0aA-Qh-wOc" secondAttribute="leading" constant="20" symbolic="YES" id="uxg-S6-wKD"/>
-                            <constraint firstItem="v0v-hH-3se" firstAttribute="top" secondItem="0aA-Qh-wOc" secondAttribute="top" constant="20" symbolic="YES" id="veX-i1-sWS"/>
-                            <constraint firstItem="Ojd-Zh-MeZ" firstAttribute="top" secondItem="0aA-Qh-wOc" secondAttribute="top" constant="492" id="zUa-Gn-4fl"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="DfM-3w-VqE"/>
@@ -637,106 +532,80 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="WDQ-f9-vmJ" customClass="ClinicsDoctorsEditViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sQJ-iq-MY5"/>
-                        <viewControllerLayoutGuide type="bottom" id="S8L-yb-bHN"/>
+                        <viewControllerLayoutGuide type="top" id="8I7-AJ-44B"/>
+                        <viewControllerLayoutGuide type="bottom" id="0vy-0n-yA0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mBF-qe-kbF">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pAF-TA-cvF">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pAF-TA-cvF">
                                 <rect key="frame" x="20" y="20" width="358" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="KLB-PT-pT1"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="FVm-sR-0fL"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fbe-ll-2WV">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fbe-ll-2WV">
                                 <rect key="frame" x="20" y="58" width="663" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="gsG-Gr-ied"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="Cdi-ub-yFK"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="website" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KnD-P7-7ar">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="website" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KnD-P7-7ar">
                                 <rect key="frame" x="386" y="20" width="297" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="297" id="uQL-pF-2iX"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="TDt-kh-3x3"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HZd-HZ-dWA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HZd-HZ-dWA">
                                 <rect key="frame" x="20" y="96" width="311" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="311" id="bgh-gc-wz3"/>
-                                    <constraint firstAttribute="height" constant="30" id="yiA-mH-CfV"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="WYg-OP-45C"/>
                                 </connections>
                             </textField>
-                            <containerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJW-cQ-hOj">
+                            <containerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xJW-cQ-hOj">
                                 <rect key="frame" x="0.0" y="134" width="331" height="634"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="LsZ-aZ-6yz" kind="embed" identifier="Embed Doctor Table View Controller" id="TUf-oW-WLd"/>
                                 </connections>
                             </containerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="doctorName" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GPE-t3-yt0">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="doctorName" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GPE-t3-yt0">
                                 <rect key="frame" x="339" y="233" width="305" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="305" id="dRG-SE-BKO"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="WDQ-f9-vmJ" id="a56-cd-sx6"/>
                                 </connections>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-PD-SnQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-PD-SnQ">
                                 <rect key="frame" x="339" y="137" width="344" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="v2E-gM-LAr"/>
-                                </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Clinic Header Photo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcF-Hm-1cR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Clinic Header Photo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcF-Hm-1cR">
                                 <rect key="frame" x="339" y="105" width="154" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="HfP-vb-4GN">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="HfP-vb-4GN">
                                 <rect key="frame" x="405" y="321" width="278" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="278" id="Vxx-qC-ym6"/>
-                                    <constraint firstAttribute="height" constant="88" id="gru-ok-cZH"/>
-                                </constraints>
                             </imageView>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Doctor Signature Image" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9X-fu-SKK">
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Doctor Signature Image" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9X-fu-SKK">
                                 <rect key="frame" x="339" y="99" width="182" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-ns-dgQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-ns-dgQ">
                                 <rect key="frame" x="629" y="92" width="54" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="37" id="0nX-6d-KEC"/>
-                                </constraints>
                                 <state key="normal" title="Change">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -755,36 +624,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.31746773099999998" green="0.31746773099999998" blue="0.31746773099999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="pAF-TA-cvF" firstAttribute="leading" secondItem="mBF-qe-kbF" secondAttribute="leading" constant="20" symbolic="YES" id="0xA-FX-aas"/>
-                            <constraint firstAttribute="trailing" secondItem="Edb-ns-dgQ" secondAttribute="trailing" constant="20" symbolic="YES" id="1mm-Gg-WQT"/>
-                            <constraint firstItem="GPE-t3-yt0" firstAttribute="top" secondItem="YRZ-PD-SnQ" secondAttribute="bottom" constant="8" symbolic="YES" id="454-KP-CmP"/>
-                            <constraint firstAttribute="trailing" secondItem="YRZ-PD-SnQ" secondAttribute="trailing" constant="20" symbolic="YES" id="D96-NI-B0W"/>
-                            <constraint firstAttribute="trailing" secondItem="KnD-P7-7ar" secondAttribute="trailing" constant="20" symbolic="YES" id="ErR-CX-Ssv"/>
-                            <constraint firstAttribute="trailing" secondItem="HfP-vb-4GN" secondAttribute="trailing" constant="20" symbolic="YES" id="HbL-GR-euE"/>
-                            <constraint firstItem="YRZ-PD-SnQ" firstAttribute="leading" secondItem="xJW-cQ-hOj" secondAttribute="trailing" constant="8" symbolic="YES" id="IZO-vJ-UTl"/>
-                            <constraint firstItem="YRZ-PD-SnQ" firstAttribute="leading" secondItem="HZd-HZ-dWA" secondAttribute="trailing" constant="8" symbolic="YES" id="KIu-EN-Ida"/>
-                            <constraint firstItem="xJW-cQ-hOj" firstAttribute="leading" secondItem="mBF-qe-kbF" secondAttribute="leading" id="Kkh-Ko-n8Q"/>
-                            <constraint firstItem="HZd-HZ-dWA" firstAttribute="leading" secondItem="mBF-qe-kbF" secondAttribute="leading" constant="20" symbolic="YES" id="Kpi-fQ-8uH"/>
-                            <constraint firstItem="xJW-cQ-hOj" firstAttribute="top" secondItem="HZd-HZ-dWA" secondAttribute="bottom" constant="8" symbolic="YES" id="LMQ-qb-cB2"/>
-                            <constraint firstItem="pAF-TA-cvF" firstAttribute="top" secondItem="mBF-qe-kbF" secondAttribute="top" constant="20" symbolic="YES" id="MLa-2h-Gk0"/>
-                            <constraint firstItem="G9X-fu-SKK" firstAttribute="top" secondItem="mBF-qe-kbF" secondAttribute="top" constant="99" id="P4H-Gb-AWx"/>
-                            <constraint firstAttribute="trailing" secondItem="fbe-ll-2WV" secondAttribute="trailing" constant="20" symbolic="YES" id="Pm6-vC-0cb"/>
-                            <constraint firstItem="YcF-Hm-1cR" firstAttribute="leading" secondItem="HZd-HZ-dWA" secondAttribute="trailing" constant="8" symbolic="YES" id="RCz-Fg-He2"/>
-                            <constraint firstItem="HZd-HZ-dWA" firstAttribute="top" secondItem="fbe-ll-2WV" secondAttribute="bottom" constant="8" symbolic="YES" id="dc7-Fd-d4s"/>
-                            <constraint firstItem="KnD-P7-7ar" firstAttribute="leading" secondItem="pAF-TA-cvF" secondAttribute="trailing" constant="8" symbolic="YES" id="dni-t6-QHs"/>
-                            <constraint firstItem="GPE-t3-yt0" firstAttribute="leading" secondItem="xJW-cQ-hOj" secondAttribute="trailing" constant="8" symbolic="YES" id="eRI-lg-L9A"/>
-                            <constraint firstItem="Edb-ns-dgQ" firstAttribute="baseline" secondItem="HZd-HZ-dWA" secondAttribute="baseline" id="f7K-G7-g2E"/>
-                            <constraint firstItem="Edb-ns-dgQ" firstAttribute="top" secondItem="mBF-qe-kbF" secondAttribute="top" constant="92" id="fEQ-nF-e7S"/>
-                            <constraint firstItem="HfP-vb-4GN" firstAttribute="top" secondItem="mBF-qe-kbF" secondAttribute="top" constant="321" id="g4V-Qm-Mdm"/>
-                            <constraint firstItem="fbe-ll-2WV" firstAttribute="leading" secondItem="mBF-qe-kbF" secondAttribute="leading" constant="20" symbolic="YES" id="iIM-X9-qYH"/>
-                            <constraint firstItem="G9X-fu-SKK" firstAttribute="leading" secondItem="xJW-cQ-hOj" secondAttribute="trailing" constant="8" symbolic="YES" id="kTj-Vs-IxI"/>
-                            <constraint firstItem="KnD-P7-7ar" firstAttribute="top" secondItem="mBF-qe-kbF" secondAttribute="top" constant="20" symbolic="YES" id="qe6-iI-moo"/>
-                            <constraint firstItem="YcF-Hm-1cR" firstAttribute="bottom" secondItem="HZd-HZ-dWA" secondAttribute="bottom" id="slM-kc-So0"/>
-                            <constraint firstItem="YRZ-PD-SnQ" firstAttribute="top" secondItem="Edb-ns-dgQ" secondAttribute="bottom" constant="8" symbolic="YES" id="tFm-Ib-dAQ"/>
-                            <constraint firstItem="fbe-ll-2WV" firstAttribute="top" secondItem="pAF-TA-cvF" secondAttribute="bottom" constant="8" symbolic="YES" id="tRY-yp-QA0"/>
-                            <constraint firstItem="xJW-cQ-hOj" firstAttribute="bottom" secondItem="mBF-qe-kbF" secondAttribute="bottom" id="woa-Ry-BSl"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="APv-xL-6fw"/>
@@ -946,21 +785,21 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="ybE-HV-OYj" customClass="InsuranceEditViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="P2P-87-dhm"/>
-                        <viewControllerLayoutGuide type="bottom" id="xE4-is-qxu"/>
+                        <viewControllerLayoutGuide type="top" id="kGr-mr-cMC"/>
+                        <viewControllerLayoutGuide type="bottom" id="UUi-gW-cqA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="92Y-4Y-Ebr">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjR-sb-P6p">
+                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gjR-sb-P6p">
                                 <rect key="frame" x="0.0" y="352" width="703" height="416"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="lc5-3V-u1J" kind="embed" identifier="Embed Doctor Table View Controller" id="Zwg-SH-PMx"/>
                                 </connections>
                             </containerView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SAp-j2-QHD">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SAp-j2-QHD">
                                 <rect key="frame" x="20" y="20" width="358" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -968,7 +807,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="xKg-5j-9tc"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UNz-nO-RYM">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="address" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UNz-nO-RYM">
                                 <rect key="frame" x="20" y="58" width="281" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -976,18 +815,15 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="5vK-YA-xeb"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contact" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fZT-Bq-cMR">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contact" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fZT-Bq-cMR">
                                 <rect key="frame" x="386" y="20" width="297" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="297" id="NyW-yK-HNu"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="0D1-nf-y0s"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V5d-1j-L2x">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V5d-1j-L2x">
                                 <rect key="frame" x="309" y="96" width="206" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
@@ -995,7 +831,7 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="6rE-1b-akD"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="city" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="twv-Rh-ujU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="city" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="twv-Rh-ujU">
                                 <rect key="frame" x="309" y="58" width="206" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -1003,33 +839,24 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="vy4-ZB-ogJ"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="state" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vut-O5-Txu">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="state" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vut-O5-Txu">
                                 <rect key="frame" x="523" y="58" width="160" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="N9N-7s-ouC"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="70f-Pb-x0y"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="zip" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BKy-Nt-IpO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="zip" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BKy-Nt-IpO">
                                 <rect key="frame" x="141" y="96" width="160" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="KSB-UB-Vja"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="ybE-HV-OYj" id="468-MC-qUm"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="suiteNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jJq-9d-H0j">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="suiteNumber" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jJq-9d-H0j">
                                 <rect key="frame" x="20" y="96" width="113" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="113" id="EYw-f2-uQq"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                 <connections>
@@ -1038,32 +865,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.31746773099999998" green="0.31746773099999998" blue="0.31746773099999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="SAp-j2-QHD" firstAttribute="leading" secondItem="92Y-4Y-Ebr" secondAttribute="leading" constant="20" symbolic="YES" id="0Yc-l1-2YP"/>
-                            <constraint firstItem="gjR-sb-P6p" firstAttribute="leading" secondItem="92Y-4Y-Ebr" secondAttribute="leading" id="1rf-Xg-m2E"/>
-                            <constraint firstItem="UNz-nO-RYM" firstAttribute="top" secondItem="SAp-j2-QHD" secondAttribute="bottom" constant="8" symbolic="YES" id="2iu-mZ-qKU"/>
-                            <constraint firstItem="twv-Rh-ujU" firstAttribute="leading" secondItem="UNz-nO-RYM" secondAttribute="trailing" constant="8" symbolic="YES" id="3XX-Bs-OW8"/>
-                            <constraint firstItem="Vut-O5-Txu" firstAttribute="baseline" secondItem="twv-Rh-ujU" secondAttribute="baseline" id="6Dq-pa-kck"/>
-                            <constraint firstItem="gjR-sb-P6p" firstAttribute="top" secondItem="92Y-4Y-Ebr" secondAttribute="top" constant="352" id="8TB-hU-ucH"/>
-                            <constraint firstItem="V5d-1j-L2x" firstAttribute="leading" secondItem="BKy-Nt-IpO" secondAttribute="trailing" constant="8" symbolic="YES" id="A0C-c4-uWB"/>
-                            <constraint firstItem="gjR-sb-P6p" firstAttribute="bottom" secondItem="92Y-4Y-Ebr" secondAttribute="bottom" id="Aaq-2C-O6A"/>
-                            <constraint firstAttribute="trailing" secondItem="fZT-Bq-cMR" secondAttribute="trailing" constant="20" symbolic="YES" id="DyG-VX-Weh"/>
-                            <constraint firstItem="twv-Rh-ujU" firstAttribute="baseline" secondItem="UNz-nO-RYM" secondAttribute="baseline" id="HWb-mp-qzM"/>
-                            <constraint firstItem="BKy-Nt-IpO" firstAttribute="baseline" secondItem="V5d-1j-L2x" secondAttribute="baseline" id="Hqr-ep-WRZ"/>
-                            <constraint firstItem="jJq-9d-H0j" firstAttribute="top" secondItem="UNz-nO-RYM" secondAttribute="bottom" constant="8" symbolic="YES" id="HtP-kC-ZM2"/>
-                            <constraint firstItem="jJq-9d-H0j" firstAttribute="baseline" secondItem="BKy-Nt-IpO" secondAttribute="baseline" id="Lgn-Lr-G16"/>
-                            <constraint firstItem="V5d-1j-L2x" firstAttribute="leading" secondItem="twv-Rh-ujU" secondAttribute="leading" id="RDY-Xg-aae"/>
-                            <constraint firstItem="fZT-Bq-cMR" firstAttribute="leading" secondItem="SAp-j2-QHD" secondAttribute="trailing" constant="8" symbolic="YES" id="RNR-bp-43z"/>
-                            <constraint firstItem="gjR-sb-P6p" firstAttribute="trailing" secondItem="92Y-4Y-Ebr" secondAttribute="trailing" id="U1V-VF-3ff"/>
-                            <constraint firstAttribute="trailing" secondItem="Vut-O5-Txu" secondAttribute="trailing" constant="20" symbolic="YES" id="YnP-ri-Rha"/>
-                            <constraint firstItem="SAp-j2-QHD" firstAttribute="top" secondItem="92Y-4Y-Ebr" secondAttribute="top" constant="20" symbolic="YES" id="aCg-Qr-omQ"/>
-                            <constraint firstItem="UNz-nO-RYM" firstAttribute="leading" secondItem="92Y-4Y-Ebr" secondAttribute="leading" constant="20" symbolic="YES" id="bsK-i5-kfP"/>
-                            <constraint firstItem="BKy-Nt-IpO" firstAttribute="leading" secondItem="jJq-9d-H0j" secondAttribute="trailing" constant="8" symbolic="YES" id="dTs-5D-cdR"/>
-                            <constraint firstItem="fZT-Bq-cMR" firstAttribute="top" secondItem="92Y-4Y-Ebr" secondAttribute="top" constant="20" symbolic="YES" id="kVF-y9-Tkd"/>
-                            <constraint firstItem="jJq-9d-H0j" firstAttribute="leading" secondItem="92Y-4Y-Ebr" secondAttribute="leading" constant="20" symbolic="YES" id="pEQ-06-Mgs"/>
-                            <constraint firstItem="Vut-O5-Txu" firstAttribute="leading" secondItem="twv-Rh-ujU" secondAttribute="trailing" constant="8" symbolic="YES" id="vA2-zo-00B"/>
-                            <constraint firstItem="twv-Rh-ujU" firstAttribute="trailing" secondItem="V5d-1j-L2x" secondAttribute="trailing" id="xTr-Ew-CaU"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="a9O-6G-PfH"/>
@@ -1188,8 +989,8 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="zpB-aD-6ec" customClass="SettingsImagesViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="309-rw-omt"/>
-                        <viewControllerLayoutGuide type="bottom" id="YGd-5W-Btk"/>
+                        <viewControllerLayoutGuide type="top" id="e3E-V8-Gwf"/>
+                        <viewControllerLayoutGuide type="bottom" id="BfW-pQ-j0A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0Ly-Qf-D1w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
@@ -1209,68 +1010,48 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="aw8-SC-B4U" customClass="ExamsEditViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="v6N-4r-3w5"/>
-                        <viewControllerLayoutGuide type="bottom" id="lxE-aL-9wS"/>
+                        <viewControllerLayoutGuide type="top" id="hQe-JW-y4x"/>
+                        <viewControllerLayoutGuide type="bottom" id="Aw8-g7-2hp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vsD-JO-XfE">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Click Patient to Add Exam to Patient's File" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtZ-q8-64K">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Click Patient to Add Exam to Patient's File" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtZ-q8-64K">
                                 <rect key="frame" x="189" y="526" width="325" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oda-vR-Rov">
+                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oda-vR-Rov">
                                 <rect key="frame" x="0.0" y="555" width="703" height="213"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="PzN-Ac-VE6" kind="embed" identifier="Embed Patients Table View Controller" id="bpw-PH-kdF"/>
                                 </connections>
                             </containerView>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEc-rC-42d">
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEc-rC-42d">
                                 <rect key="frame" x="0.0" y="0.0" width="703" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="aw8-SC-B4U" id="hyX-wj-cY2"/>
                                     <outlet property="delegate" destination="aw8-SC-B4U" id="GXx-1a-GnH"/>
                                 </connections>
                             </pickerView>
-                            <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PTY-fH-LP5">
+                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PTY-fH-LP5">
                                 <rect key="frame" x="0.0" y="234" width="703" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="aw8-SC-B4U" id="fjX-ip-b7J"/>
                                     <outlet property="delegate" destination="aw8-SC-B4U" id="QwI-vb-eWi"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Preview Sentence" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="663" translatesAutoresizingMaskIntoConstraints="NO" id="nuQ-BX-MJr">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Preview Sentence" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="663" translatesAutoresizingMaskIntoConstraints="NO" id="nuQ-BX-MJr">
                                 <rect key="frame" x="20" y="458" width="663" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="x9n-y1-1QS"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.31746773099999998" green="0.31746773099999998" blue="0.31746773099999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="Oda-vR-Rov" firstAttribute="top" secondItem="vsD-JO-XfE" secondAttribute="top" constant="555" id="2Do-9E-h6l"/>
-                            <constraint firstItem="Oda-vR-Rov" firstAttribute="top" secondItem="dtZ-q8-64K" secondAttribute="bottom" constant="8" symbolic="YES" id="DNa-XP-w8L"/>
-                            <constraint firstItem="zEc-rC-42d" firstAttribute="trailing" secondItem="vsD-JO-XfE" secondAttribute="trailing" id="L1d-k1-cT2"/>
-                            <constraint firstItem="PTY-fH-LP5" firstAttribute="leading" secondItem="vsD-JO-XfE" secondAttribute="leading" id="Ozb-TN-XHY"/>
-                            <constraint firstItem="Oda-vR-Rov" firstAttribute="trailing" secondItem="vsD-JO-XfE" secondAttribute="trailing" id="QMk-VR-ASs"/>
-                            <constraint firstAttribute="trailing" secondItem="nuQ-BX-MJr" secondAttribute="trailing" constant="20" symbolic="YES" id="QpK-4n-V5V"/>
-                            <constraint firstItem="nuQ-BX-MJr" firstAttribute="centerX" secondItem="dtZ-q8-64K" secondAttribute="centerX" id="VNd-ag-F6J"/>
-                            <constraint firstItem="Oda-vR-Rov" firstAttribute="leading" secondItem="vsD-JO-XfE" secondAttribute="leading" id="a1A-cL-lC4"/>
-                            <constraint firstItem="Oda-vR-Rov" firstAttribute="bottom" secondItem="vsD-JO-XfE" secondAttribute="bottom" id="bHc-N5-8Ya"/>
-                            <constraint firstItem="nuQ-BX-MJr" firstAttribute="top" secondItem="PTY-fH-LP5" secondAttribute="bottom" constant="8" symbolic="YES" id="d6B-mQ-wwe"/>
-                            <constraint firstItem="zEc-rC-42d" firstAttribute="top" secondItem="vsD-JO-XfE" secondAttribute="top" id="drf-z0-cvQ"/>
-                            <constraint firstItem="PTY-fH-LP5" firstAttribute="top" secondItem="vsD-JO-XfE" secondAttribute="top" constant="234" id="hND-I0-XSH"/>
-                            <constraint firstItem="PTY-fH-LP5" firstAttribute="trailing" secondItem="vsD-JO-XfE" secondAttribute="trailing" id="jop-e3-nJF"/>
-                            <constraint firstItem="zEc-rC-42d" firstAttribute="leading" secondItem="vsD-JO-XfE" secondAttribute="leading" id="raW-xN-uok"/>
-                            <constraint firstItem="nuQ-BX-MJr" firstAttribute="leading" secondItem="vsD-JO-XfE" secondAttribute="leading" constant="20" symbolic="YES" id="ySN-Eo-klV"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="4mq-Xd-aJd"/>
@@ -1289,8 +1070,8 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="u82-eY-FBt" customClass="ReportBuilderViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ko3-Yf-E7j"/>
-                        <viewControllerLayoutGuide type="bottom" id="w2e-LW-vG8"/>
+                        <viewControllerLayoutGuide type="top" id="PKa-Uw-c4R"/>
+                        <viewControllerLayoutGuide type="bottom" id="8oh-es-0CN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wT3-27-cNL">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
@@ -1645,17 +1426,17 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="01U-Wq-zEX" customClass="SettingsImagesEditViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jAK-s6-dog"/>
-                        <viewControllerLayoutGuide type="bottom" id="buL-75-l0v"/>
+                        <viewControllerLayoutGuide type="top" id="ClN-vO-jjr"/>
+                        <viewControllerLayoutGuide type="bottom" id="JBH-dv-4GF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zQR-bi-SRI">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIR-dR-FAR">
+                            <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIR-dR-FAR">
                                 <rect key="frame" x="113" y="15" width="51" height="31"/>
                             </switch>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Spellcheck" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yts-Lj-dGL">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Spellcheck" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yts-Lj-dGL">
                                 <rect key="frame" x="20" y="20" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1663,12 +1444,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Yts-Lj-dGL" firstAttribute="leading" secondItem="zQR-bi-SRI" secondAttribute="leading" constant="20" symbolic="YES" id="SX3-5s-JL2"/>
-                            <constraint firstItem="UIR-dR-FAR" firstAttribute="leading" secondItem="Yts-Lj-dGL" secondAttribute="trailing" constant="8" symbolic="YES" id="c36-hD-LeZ"/>
-                            <constraint firstItem="Yts-Lj-dGL" firstAttribute="top" secondItem="zQR-bi-SRI" secondAttribute="top" constant="20" symbolic="YES" id="gJ3-xR-7J9"/>
-                            <constraint firstItem="UIR-dR-FAR" firstAttribute="centerY" secondItem="Yts-Lj-dGL" secondAttribute="centerY" id="mFv-O0-sXU"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1817,178 +1592,105 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="u7H-fz-O2p" customClass="PrintViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tul-qb-1vX"/>
-                        <viewControllerLayoutGuide type="bottom" id="CXe-k7-6Hu"/>
+                        <viewControllerLayoutGuide type="top" id="zcN-SY-UW7"/>
+                        <viewControllerLayoutGuide type="bottom" id="bxK-er-7Fs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="teO-1q-YaI">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-Lu-gGV">
-                                <rect key="frame" x="46" y="20" width="611" height="632"/>
+                            <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-Lu-gGV">
+                                <rect key="frame" x="46" y="20" width="612" height="632"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W2u-CH-Uvl">
-                                        <rect key="frame" x="0.0" y="-80" width="611" height="792"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W2u-CH-Uvl">
+                                        <rect key="frame" x="1" y="0.0" width="611" height="792"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="792" id="vua-nE-PXn"/>
-                                        </constraints>
                                     </view>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNH-O2-NuC">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNH-O2-NuC">
                                         <rect key="frame" x="12" y="154" width="188" height="15"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="188" id="3Fl-s3-1Dv"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Dear, Contact" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9a3-Ok-218">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Dear, Contact" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9a3-Ok-218">
                                         <rect key="frame" x="50" y="185" width="466" height="21"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="fpw-jR-C5b"/>
-                                            <constraint firstAttribute="width" constant="466" id="rRG-Ha-OVJ"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="On [DATE] a [TYPE OF EXAM] was performed on [Patient Name]. Below are the findings" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="531" translatesAutoresizingMaskIntoConstraints="NO" id="zqR-US-aYx">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="On [DATE] a [TYPE OF EXAM] was performed on [Patient Name]. Below are the findings" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="531" translatesAutoresizingMaskIntoConstraints="NO" id="zqR-US-aYx">
                                         <rect key="frame" x="60" y="200" width="531" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="531" id="Gs8-8f-cCO"/>
-                                            <constraint firstAttribute="height" constant="44" id="HFh-Ni-DOa"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Exam Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7I-9L-sfx">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Exam Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7I-9L-sfx">
                                         <rect key="frame" x="417" y="112" width="173" height="14"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="173" id="wAZ-Y3-rF2"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36w-QN-Yg8">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36w-QN-Yg8">
                                         <rect key="frame" x="134" y="17" width="344" height="88"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="88" id="HOU-e2-4qW"/>
-                                            <constraint firstAttribute="width" constant="344" id="hb0-It-J4B"/>
-                                        </constraints>
                                     </imageView>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Policy Number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRO-i6-fW6">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Policy Number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRO-i6-fW6">
                                         <rect key="frame" x="266" y="126" width="324" height="13"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="324" id="NCF-C9-Nzl"/>
-                                            <constraint firstAttribute="height" constant="13" id="mCg-W7-h2J"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insurance Address" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="310" translatesAutoresizingMaskIntoConstraints="NO" id="VP6-4S-V0V">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Insurance Address" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="310" translatesAutoresizingMaskIntoConstraints="NO" id="VP6-4S-V0V">
                                         <rect key="frame" x="12" y="125" width="310" height="15"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="310" id="9O4-Lj-x2h"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="RE: Patient Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUc-rT-4Q1">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="RE: Patient Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUc-rT-4Q1">
                                         <rect key="frame" x="266" y="139" width="324" height="15"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insurance Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcC-pw-2Uv">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Insurance Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcC-pw-2Uv">
                                         <rect key="frame" x="12" y="112" width="196" height="14"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="14" id="8Hz-Zf-MjZ"/>
-                                            <constraint firstAttribute="width" constant="196" id="oc6-xx-J6D"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Footer Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="552" translatesAutoresizingMaskIntoConstraints="NO" id="CeX-86-PcU">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Footer Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="552" translatesAutoresizingMaskIntoConstraints="NO" id="CeX-86-PcU">
                                         <rect key="frame" x="20" y="720" width="552" height="63"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="63" id="8r2-QD-oFh"/>
-                                            <constraint firstAttribute="width" constant="552" id="vu1-q9-Dcz"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="City, State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDZ-Xf-LGN">
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="City, State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDZ-Xf-LGN">
                                         <rect key="frame" x="12" y="140" width="294" height="13"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="294" id="40l-fq-QCz"/>
-                                            <constraint firstAttribute="height" constant="13" id="JSz-4O-2KW"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="zqR-US-aYx" firstAttribute="top" secondItem="Gic-Lu-gGV" secondAttribute="top" constant="200" id="3NL-YA-TRa"/>
-                                    <constraint firstItem="zqR-US-aYx" firstAttribute="leading" secondItem="Gic-Lu-gGV" secondAttribute="leading" constant="60" id="9R7-Xc-FDP"/>
-                                    <constraint firstItem="W2u-CH-Uvl" firstAttribute="centerY" secondItem="Gic-Lu-gGV" secondAttribute="centerY" id="9S9-er-wMO"/>
-                                    <constraint firstItem="mUc-rT-4Q1" firstAttribute="trailing" secondItem="jRO-i6-fW6" secondAttribute="trailing" id="EgQ-rh-qB3"/>
-                                    <constraint firstItem="W2u-CH-Uvl" firstAttribute="leading" secondItem="Gic-Lu-gGV" secondAttribute="leading" id="FtG-pP-Lqa"/>
-                                    <constraint firstItem="36w-QN-Yg8" firstAttribute="top" secondItem="Gic-Lu-gGV" secondAttribute="top" constant="17" id="G0N-xf-FxT"/>
-                                    <constraint firstItem="VP6-4S-V0V" firstAttribute="top" secondItem="Gic-Lu-gGV" secondAttribute="top" constant="125" id="HJh-Lz-MDq"/>
-                                    <constraint firstItem="9a3-Ok-218" firstAttribute="leading" secondItem="Gic-Lu-gGV" secondAttribute="leading" constant="50" id="NbV-rC-bF7"/>
-                                    <constraint firstItem="CeX-86-PcU" firstAttribute="leading" secondItem="Gic-Lu-gGV" secondAttribute="leading" constant="20" symbolic="YES" id="OWx-KV-PBM"/>
-                                    <constraint firstAttribute="trailing" secondItem="zqR-US-aYx" secondAttribute="trailing" constant="20" symbolic="YES" id="SKd-El-XwS"/>
-                                    <constraint firstItem="mUc-rT-4Q1" firstAttribute="leading" secondItem="jRO-i6-fW6" secondAttribute="leading" id="Teb-sa-xAF"/>
-                                    <constraint firstItem="9a3-Ok-218" firstAttribute="top" secondItem="Gic-Lu-gGV" secondAttribute="top" constant="185" id="UCX-Hu-h3m"/>
-                                    <constraint firstItem="m7I-9L-sfx" firstAttribute="baseline" secondItem="lcC-pw-2Uv" secondAttribute="baseline" id="VN4-Bn-pq9"/>
-                                    <constraint firstItem="sNH-O2-NuC" firstAttribute="top" secondItem="Gic-Lu-gGV" secondAttribute="top" constant="154" id="X4x-gh-PSV"/>
-                                    <constraint firstItem="lcC-pw-2Uv" firstAttribute="leading" secondItem="Gic-Lu-gGV" secondAttribute="leading" constant="12" id="XU8-Nd-aAr"/>
-                                    <constraint firstItem="lcC-pw-2Uv" firstAttribute="top" secondItem="Gic-Lu-gGV" secondAttribute="top" constant="112" id="Y2i-Z6-fQj"/>
-                                    <constraint firstItem="CeX-86-PcU" firstAttribute="top" secondItem="W2u-CH-Uvl" secondAttribute="bottom" constant="8" symbolic="YES" id="YDA-f9-J4s"/>
-                                    <constraint firstItem="mUc-rT-4Q1" firstAttribute="top" secondItem="Gic-Lu-gGV" secondAttribute="top" constant="139" id="bH3-5v-sJD"/>
-                                    <constraint firstItem="36w-QN-Yg8" firstAttribute="leading" secondItem="Gic-Lu-gGV" secondAttribute="leading" constant="134" id="cTc-oJ-ODO"/>
-                                    <constraint firstItem="lDZ-Xf-LGN" firstAttribute="leading" secondItem="VP6-4S-V0V" secondAttribute="leading" id="eRk-ae-i4b"/>
-                                    <constraint firstItem="jRO-i6-fW6" firstAttribute="centerY" secondItem="VP6-4S-V0V" secondAttribute="centerY" id="fkW-PM-DkY"/>
-                                    <constraint firstItem="VP6-4S-V0V" firstAttribute="leading" secondItem="lcC-pw-2Uv" secondAttribute="leading" id="fzf-tP-dlx"/>
-                                    <constraint firstItem="m7I-9L-sfx" firstAttribute="top" secondItem="lcC-pw-2Uv" secondAttribute="top" id="gCu-EM-OJp"/>
-                                    <constraint firstItem="sNH-O2-NuC" firstAttribute="leading" secondItem="lDZ-Xf-LGN" secondAttribute="leading" id="hHK-Sz-7Tf"/>
-                                    <constraint firstItem="jRO-i6-fW6" firstAttribute="leading" secondItem="Gic-Lu-gGV" secondAttribute="leading" constant="266" id="hg0-jB-JDh"/>
-                                    <constraint firstItem="jRO-i6-fW6" firstAttribute="trailing" secondItem="m7I-9L-sfx" secondAttribute="trailing" id="n4Z-kD-AwA"/>
-                                    <constraint firstItem="W2u-CH-Uvl" firstAttribute="trailing" secondItem="Gic-Lu-gGV" secondAttribute="trailing" id="q7B-iI-cPP"/>
-                                    <constraint firstAttribute="bottom" secondItem="W2u-CH-Uvl" secondAttribute="bottom" constant="-90" id="vHG-8o-YLb"/>
-                                    <constraint firstItem="lDZ-Xf-LGN" firstAttribute="centerY" secondItem="mUc-rT-4Q1" secondAttribute="centerY" id="x2h-Kq-v0l"/>
-                                </constraints>
+                                <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R6n-Qc-Z5s">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R6n-Qc-Z5s">
                                 <rect key="frame" x="-150" y="645" width="859" height="123"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCW-bi-m1F">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCW-bi-m1F">
                                         <rect key="frame" x="167" y="16" width="228" height="87"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="228" id="JoS-aV-JDz"/>
-                                            <constraint firstAttribute="height" constant="87" id="lHB-fg-5Me"/>
-                                        </constraints>
-                                        <state key="normal" title="PNG">
-                                            <color key="titleColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="PNG" backgroundImage="Blue Button.png">
+                                            <color key="titleColor" red="0.94923096900000004" green="0.6370845289" blue="0.15700182360000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -1998,26 +1700,22 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                             </segue>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTw-0D-hhL">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTw-0D-hhL">
                                         <rect key="frame" x="630" y="16" width="209" height="87"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="209" id="vpM-lB-vsa"/>
-                                        </constraints>
-                                        <state key="normal" title="PRINT">
-                                            <color key="titleColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="PRINT" backgroundImage="Blue Button.png">
+                                            <color key="titleColor" red="0.94923096900000004" green="0.6370845289" blue="0.15700182360000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="print:" destination="u7H-fz-O2p" eventType="touchUpInside" id="sqd-ln-HIQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nf8-wY-bYK">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nf8-wY-bYK">
                                         <rect key="frame" x="403" y="16" width="219" height="87"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="219" id="P15-nb-AUr"/>
-                                        </constraints>
-                                        <state key="normal" title="EMAIL">
-                                            <color key="titleColor" red="0.0" green="0.51372551919999998" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="EMAIL" backgroundImage="Blue Button.png">
+                                            <color key="titleColor" red="0.94923096900000004" green="0.6370845289" blue="0.15700182360000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -2026,29 +1724,9 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.31746773099999998" green="0.31746773099999998" blue="0.31746773099999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="XTw-0D-hhL" secondAttribute="trailing" constant="20" symbolic="YES" id="3SF-ca-7mv"/>
-                                    <constraint firstItem="XTw-0D-hhL" firstAttribute="leading" secondItem="nf8-wY-bYK" secondAttribute="trailing" constant="8" symbolic="YES" id="5iw-B5-IRN"/>
-                                    <constraint firstAttribute="bottom" secondItem="XTw-0D-hhL" secondAttribute="bottom" constant="20" symbolic="YES" id="8tx-wM-Lje"/>
-                                    <constraint firstItem="DCW-bi-m1F" firstAttribute="top" secondItem="R6n-Qc-Z5s" secondAttribute="top" constant="16" id="HZO-iB-NEA"/>
-                                    <constraint firstItem="nf8-wY-bYK" firstAttribute="top" secondItem="DCW-bi-m1F" secondAttribute="top" id="HkF-W7-c9r"/>
-                                    <constraint firstAttribute="bottom" secondItem="DCW-bi-m1F" secondAttribute="bottom" constant="20" symbolic="YES" id="KPq-ul-0eX"/>
-                                    <constraint firstAttribute="bottom" secondItem="nf8-wY-bYK" secondAttribute="bottom" constant="20" symbolic="YES" id="e9C-mo-7F0"/>
-                                    <constraint firstItem="nf8-wY-bYK" firstAttribute="leading" secondItem="DCW-bi-m1F" secondAttribute="trailing" constant="8" symbolic="YES" id="yKc-ni-lee"/>
-                                    <constraint firstItem="DCW-bi-m1F" firstAttribute="leading" secondItem="R6n-Qc-Z5s" secondAttribute="leading" constant="167" id="yrR-By-cS3"/>
-                                    <constraint firstItem="XTw-0D-hhL" firstAttribute="top" secondItem="nf8-wY-bYK" secondAttribute="top" id="zqe-P6-cKp"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Gic-Lu-gGV" firstAttribute="leading" secondItem="teO-1q-YaI" secondAttribute="leading" constant="46" id="4G4-13-hAo"/>
-                            <constraint firstAttribute="bottom" secondItem="Gic-Lu-gGV" secondAttribute="bottom" constant="116" id="6Ko-zr-gW3"/>
-                            <constraint firstItem="Gic-Lu-gGV" firstAttribute="top" secondItem="teO-1q-YaI" secondAttribute="top" constant="20" symbolic="YES" id="fEx-4O-JEu"/>
-                            <constraint firstItem="R6n-Qc-Z5s" firstAttribute="leading" secondItem="teO-1q-YaI" secondAttribute="leading" constant="-150" id="kxp-7o-0pU"/>
-                            <constraint firstItem="Gic-Lu-gGV" firstAttribute="centerX" secondItem="teO-1q-YaI" secondAttribute="centerX" id="mVZ-ge-LSn"/>
-                            <constraint firstItem="R6n-Qc-Z5s" firstAttribute="bottom" secondItem="teO-1q-YaI" secondAttribute="bottom" id="vTv-8a-2DH"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="m9t-x1-ZA0"/>
@@ -2076,20 +1754,20 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController id="01l-bn-kfz" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4aL-2H-Qnh"/>
-                        <viewControllerLayoutGuide type="bottom" id="ayL-1j-gur"/>
+                        <viewControllerLayoutGuide type="top" id="lu6-63-IKs"/>
+                        <viewControllerLayoutGuide type="bottom" id="jIG-1w-p3v"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zp2-08-0Ko">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Check Photo Library" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlI-lJ-1tg">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Check Photo Library" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlI-lJ-1tg">
                                 <rect key="frame" x="20" y="20" width="158" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="For PNG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ozq-1M-mtH">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="For PNG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ozq-1M-mtH">
                                 <rect key="frame" x="67" y="49" width="67" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -2097,12 +1775,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="nlI-lJ-1tg" firstAttribute="top" secondItem="Zp2-08-0Ko" secondAttribute="top" constant="20" symbolic="YES" id="9rN-8N-VAR"/>
-                            <constraint firstItem="Ozq-1M-mtH" firstAttribute="top" secondItem="nlI-lJ-1tg" secondAttribute="bottom" constant="8" symbolic="YES" id="OOC-dj-Ksc"/>
-                            <constraint firstItem="nlI-lJ-1tg" firstAttribute="leading" secondItem="Zp2-08-0Ko" secondAttribute="leading" constant="20" symbolic="YES" id="Ykp-vf-T2B"/>
-                            <constraint firstItem="Ozq-1M-mtH" firstAttribute="centerX" secondItem="Zp2-08-0Ko" secondAttribute="centerX" id="q38-Ro-Iom"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -2116,14 +1788,14 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
             <objects>
                 <viewController storyboardIdentifier="RequiredPopover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="35k-5a-LXh" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Zgp-oI-0mK"/>
-                        <viewControllerLayoutGuide type="bottom" id="9Tr-gI-8jh"/>
+                        <viewControllerLayoutGuide type="top" id="825-Ib-uys"/>
+                        <viewControllerLayoutGuide type="bottom" id="r1l-za-Tqg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PC1-st-ssG">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This Is a Required Field" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYM-JZ-sWV">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="This Is a Required Field" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYM-JZ-sWV">
                                 <rect key="frame" x="10" y="7" width="180" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -2131,10 +1803,6 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="AYM-JZ-sWV" firstAttribute="top" secondItem="PC1-st-ssG" secondAttribute="top" constant="7" id="1jZ-P6-Pkf"/>
-                            <constraint firstItem="AYM-JZ-sWV" firstAttribute="centerX" secondItem="PC1-st-ssG" secondAttribute="centerX" id="JZj-qS-pxJ"/>
-                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>

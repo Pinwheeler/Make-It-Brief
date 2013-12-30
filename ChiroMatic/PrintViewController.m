@@ -230,7 +230,7 @@ static const float FINDINGS_LABEL_WIDTH = 470.0f;
 
 # pragma mark ScrollView Setup Methods
 
--(void) viewDidAppear:(BOOL)animated
+-(void) viewDidLayoutSubviews
 {
     //--Set the header image
     if (self.report.patient.doctor.clinic.logo) {
@@ -380,13 +380,14 @@ static const float FINDINGS_LABEL_WIDTH = 470.0f;
     //CGSize newScrollviewSize = CGSizeMake(self.scrollView.frame.size.width, footerRect.origin.y + 30.0f);
     CGSize newScrollViewSize = CGSizeMake(612, 792);
     [self.scrollView setContentSize:newScrollViewSize];
-    NSLog(@"Scrollview Contentsize: %f,%f",self.scrollView.frame.size.width,self.scrollView.frame.size.height);
+    NSLog(@"Scrollview Frame: %@",NSStringFromCGRect(_scrollView.frame));
+    NSLog(@"Scrollview Contentsize: %@",NSStringFromCGSize(_scrollView.contentSize));
     //--Add created views
     //[self.scrollView addSubview:footerLabel];
     for (UILabel* findingsLabel in findingsLabelArray) {
         [self.scrollView addSubview:findingsLabel];
     }
-    [self.scrollView setBackgroundColor:[UIColor clearColor]];
+    [self.scrollView setBackgroundColor:[UIColor whiteColor]];
     [self.scrollView setOpaque:YES];
 }
 @end
