@@ -217,9 +217,10 @@ The PNG file will be stored in the "photos" section of your iPad memory.</string
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" showsHorizontalScrollIndicator="NO" editable="NO" id="gXY-Zj-f7e">
+                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="gXY-Zj-f7e">
                             <rect key="frame" x="0.0" y="64" width="320" height="103"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <inset key="contentInset" minX="0.0" minY="50" maxX="0.0" maxY="0.0"/>
                             <mutableString key="text">--This box is scrollable--
 
 Here you can add/edit patients, confirm their insurance and give them a primary doctor.
@@ -482,9 +483,10 @@ Here you can add/edit patients, confirm their insurance and give them a primary 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" showsHorizontalScrollIndicator="NO" editable="NO" id="fDv-hC-uQc">
+                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="fDv-hC-uQc">
                             <rect key="frame" x="0.0" y="64" width="320" height="103"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <inset key="contentInset" minX="0.0" minY="50" maxX="0.0" maxY="0.0"/>
                             <mutableString key="text">--This box is scrollable--
 
 Here you can add/edit clinic and doctor information. This information will be used on the MiB Report.
@@ -752,9 +754,10 @@ Here you can add/edit clinic and doctor information. This information will be us
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" showsHorizontalScrollIndicator="NO" editable="NO" id="tAr-LN-Miq">
+                        <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="tAr-LN-Miq">
                             <rect key="frame" x="0.0" y="64" width="320" height="103"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <inset key="contentInset" minX="0.0" minY="50" maxX="0.0" maxY="0.0"/>
                             <mutableString key="text">--This box is scrollable--
 
 Here you can add/edit Insurance information. This information will be used on the MiB Report.
@@ -1356,7 +1359,7 @@ This is where you can quick-create findings from the MiB quick-finding database.
                     </view>
                     <navigationItem key="navigationItem" id="kYb-4Z-zva"/>
                     <connections>
-                        <outlet property="actionLabelDuration" destination="UVX-UE-a8k" id="62s-h8-Quw"/>
+                        <outlet property="actionLabelDuration" destination="UVX-UE-a8k" id="cWQ-19-FNz"/>
                         <outlet property="actionLabelPurpose" destination="PHy-NN-hA5" id="82P-8p-DXP"/>
                         <outlet property="actionLabelTreatment" destination="TRJ-5O-zx1" id="MPe-L1-0gO"/>
                         <outlet property="contactField" destination="GoB-fj-jLl" id="PXS-Em-Ibm"/>
