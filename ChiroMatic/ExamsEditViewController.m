@@ -138,27 +138,25 @@
 {
     // Create the result string based on the pickerView selections
     // Results string will be a composition of several prefix-value-suffix trios
-    if (self.bottomPicker.isHidden) {
-        //This is if the topPicker isn't even being used
-        NSString* resultsString = @"";
-        for (int i = 0; i < [self.currentExamArray count]; i++) {
-            NSDictionary* dict = [self.currentExamArray objectAtIndex:i];
-            NSString* prefixString = [dict objectForKey:@"prefix"];
-            int arrayIndex = [pickerView selectedRowInComponent:i];
-            NSArray* array = [dict objectForKey:@"possibleValues"];
-            NSString* componentString = [array objectAtIndex:arrayIndex];
-            NSString* suffixString = [dict objectForKey:@"suffix"];
-            if ([componentString isEqualToString:@""]) {
-                prefixString = @"";
-                suffixString = @"";
-            }
-            resultsString = [resultsString stringByAppendingFormat:@"%@%@%@",prefixString,componentString,suffixString];
+    //This is if the topPicker isn't even being used
+    NSString* resultsString = @"";
+    for (int i = 0; i < [self.currentExamArray count]; i++) {
+        NSDictionary* dict = [self.currentExamArray objectAtIndex:i];
+        NSString* prefixString = [dict objectForKey:@"prefix"];
+        int arrayIndex = [pickerView selectedRowInComponent:i];
+        NSArray* array = [dict objectForKey:@"possibleValues"];
+        NSString* componentString = [array objectAtIndex:arrayIndex];
+        NSString* suffixString = [dict objectForKey:@"suffix"];
+        if ([componentString isEqualToString:@""]) {
+            prefixString = @"";
+            suffixString = @"";
         }
-
-        self.currentExam.result = resultsString;
-        self.previewSentenceLabel.text = resultsString;
-        //NSLog(@"%@",self.currentExam.result);
+        resultsString = [resultsString stringByAppendingFormat:@"%@%@%@",prefixString,componentString,suffixString];
     }
+
+    self.currentExam.result = resultsString;
+    self.previewSentenceLabel.text = resultsString;
+    //NSLog(@"%@",self.currentExam.result);
 }
 
 @end

@@ -334,7 +334,7 @@ static const float FINDINGS_LABEL_WIDTH = 470.0f;
         //findingsLabel.numberOfLines = 1;
         //findingsLabel.adjustsFontSizeToFitWidth = YES;
         findingsLabel.adjustsLetterSpacingToFitWidth = YES;
-        findingsLabel.text = [NSString stringWithFormat:@"%@:\t\t\t\t%@",exam.name,exam.result];
+        findingsLabel.text = [NSString stringWithFormat:@"%@:\t\t\t%@",exam.name,exam.result];
         findingsLabel.font = [UIFont systemFontOfSize:11];
         //[self.scrollView addSubview:findingsLabel];
         newFooterRect = CGRectMake(footerRect.origin.x, footerRect.origin.y+(FINDINGS_SPACING_CONSTANT*(i+1)), footerRect.size.width, footerRect.size.height);
