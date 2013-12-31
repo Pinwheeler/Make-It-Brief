@@ -1342,7 +1342,7 @@ This is where you can quick-create findings from the MiB quick-finding database.
                                     <action selector="prognosisStateChanged:" destination="u82-eY-FBt" eventType="valueChanged" id="ZsP-PD-0wv"/>
                                 </connections>
                             </switch>
-                            <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="UVX-UE-a8k">
+                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="UVX-UE-a8k">
                                 <rect key="frame" x="74" y="127" width="514" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
